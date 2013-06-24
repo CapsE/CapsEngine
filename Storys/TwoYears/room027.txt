@@ -1,0 +1,11 @@
+<content>
+$text: „Ja, doch, sein Name war Mike. Sie sind sein Sohn, nicht wahr? Ich habe schon lange nichts mehr von ihm gehört… Wie geht es ihm so?“ 
+<br>
+Ich verziehe keine Miene. Es ist so, wie ich es schon erwartet habe. Ich schüttele den Kopf.
+<br>
+„Entschuldige, Sir, aber auch ich weiß nicht, wo er steckt. Ich habe auch schon seit langer Zeit nichts mehr von ihm gehört. Falls sie aber wen finden, der weiß, wo er steckt, lassen Sie es mich wissen.“
+<br>
+Er nickt, und legt etwas Geld auf den Tresen. „Danke. Schönen Abend noch. Und passen Sie auf sich auf!“ Der Mann verlässt die Bar, und übrig bleibt nur noch der Nervösling. Während noch eine weitere Stunde vergeht, ist nichts Großartiges passiert. Der Typ vor mir schrieb gefühlte hundert Seiten, aber es ist nicht vorstellbar, dass was Sinnvolles drin steht. Nichtsdestotrotz musste ich den Herren bitten, zu gehen, und er tat das auch, ohne Einwand. Da ich nebenbei schon sauber gemacht habe, brauchte ich nach Feierabend nicht viel zu tun. Es ist 3 Uhr morgens, dunkel, und still. Nebenbei auch noch sauber. Das liebe ich so an diesem Schuppen. Die Leute machen nicht viel Dreck.
+$option: Weiter => /room028
+$end
+</content>

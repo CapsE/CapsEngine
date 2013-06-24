@@ -1,0 +1,8 @@
+<content>
+$sound: Audio/aufsmotorrad_start.mp3
+$text: Das ist sie – Mein Baby. Ich setze mir den Helm auf, und steige auf mein geliebtes Hohndah XR MK II. Ein Prachtstück… 
+<br>
+Nachdem ich mich in Position gebracht habe, steigt immer wieder mein Adrenalin. Es ist immer dasselbe, und doch jedes Mal anders. Also, los.
+$option: Weiter => /room018C
+$end
+</content>

@@ -1,0 +1,12 @@
+<content>
+$root: Storys/TwoYears
+$background: Pics/BG/black.png
+$music: Audio/maintheme
+$text: Es ist schon fast zwei Jahre her. 
+<br>
+Eine Menge ist während der Zeit passiert… Und ich muss zugeben, es war nicht einfach. Oft stand ich kurz davor, einfach zu fliehen, aber dann würde ich nur mich selbst hassen. Ich hätte einfach nicht gedacht dass ich jetzt hier stehe… 
+<br>
+Das Schicksal ist schon ein gemeiner Dreckssack. 
+$option: Weiter => /room002
+$end
+</content>

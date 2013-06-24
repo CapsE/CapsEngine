@@ -1,0 +1,6 @@
+$background: 
+$music: 
+$text: 
+
+$option: Weiter => 
+$end

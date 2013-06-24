@@ -1,0 +1,14 @@
+<content>
+$background: Pics/BG/darkzimmer.png
+$music: Audio/standartatmozimmer
+$sound: Audio/haustuer_leisetreppenhaus_bett.mp3
+$text: Ein lauter Knall reißt mich aus meinem Schlummer. Bevor ich das Geräusch überhaupt erst orten konnte, schlägt ein Hammer auf meinen Kopf. Zumindest fühlt es sich so an. 
+<br>
+Es ist der schmerzhafte, aber bekannte Kater am Morgen. Oder Nachmittag. Ich lass einen Seufzer raus und döse noch eine Weile. 
+<br>
+„Was ist gestern noch passiert? So viel habe ich doch gar nicht getrunken…“ 
+<br>
+Ich versuche mich aufzurappeln, fühle mich dabei aber wie ein Säugling, welches gerade das Gehen lernen möchte. 
+$option: Weiter => /room005
+$end
+</content>

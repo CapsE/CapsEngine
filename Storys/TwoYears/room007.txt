@@ -1,0 +1,8 @@
+<content>
+$sound: Audio/kaffeemaschine.mp3
+$text: Ich schalte dir Kaffeemaschine ein und leg ein Kaffeepad rein. Während das Wasser aufkocht, schau ich auf mein Handy. Wie spät es ist! 16:00 Uhr…
+<br>
+Mein Schlafrhythmus hat schon mal bessere Tage gesehen, aber seit dem Job in der Bar habe ich den komplett aus den Augen verloren. Immerhin muss ich erst um 18:30 Uhr anfangen. Also habe ich noch Zeit. Ich lehne mich an den Küschentisch, schließe meine Augen und…
+$option: Weiter => /room008
+$end
+</content>

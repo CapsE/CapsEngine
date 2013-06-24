@@ -1,0 +1,7 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/showerend_towelaction_anziehen.mp3
+$text: Ich steige aus der Dusche. Ich atme tief ein und aus, und trockne mich ab. Mein Arbeitshemd habe ich in Gedanken in die Ecke geschmissen… Das kann man wieder anziehen. Durch meine tolle Körperpflege rieche ich nie unangenehm. So auch meine Klamotten. Im Spiegel sehe ich einen wunderbaren Kerl. Warum bin ich so gut gelaunt? Ach, manchmal kann man einfach gut gelaunt sein, zumal das bei mir auch einfach seltener der Fall als mir lieb ist.
+$option: Weiter => /room014C
+$end
+</content>

@@ -1,0 +1,10 @@
+atmo: 	windabendmetropole
+	standartatmozimmer
+	
+
+sound:	haustuer_leisetreppenhaus_bett
+	dumpfeschritte_gardinen_fensterauf
+	radioklick_dumpfeschritte
+
+
+music:	smooth

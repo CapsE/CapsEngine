@@ -1,0 +1,7 @@
+<content>
+$text: Der Feind biegt ein und fährt in die Gasse. Was…? Erleichtert, aber noch nicht in Sicherheit gewogen, fahre ich die Straße weiter entlang. Warum zum Geier fährt er in die Gasse, wenn er mich vorhin noch verfolgt hat? 
+<br>
+Das ist allerdings meine Chance. Wenn ich jetzt Vollgas gebe und den Straßenverlauf folge, dann kann er mich nicht mehr einholen, selbst wenn das eine Abkürzung war! 
+$option: Weiter => /room033AA
+$end
+</content>

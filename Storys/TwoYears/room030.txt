@@ -1,0 +1,11 @@
+<content>
+$background: Pics/BG/strassedunkel.png
+$music: Audio/motorradfahren
+$text: Ich fahre schon ein paar Minuten mit mäßiger Geschwindigkeit. Der Nervenkitzel von hoher Geschwindigkeit ist für mich nicht so besonders wie den Wind am ganzen Körper spüren zu können. Es gibt nichts Schöneres als allein auf der Straße zu fahren…
+<br>
+Plötzlich höre ich das Geräusch eines weiteren Motorrads. Ich schätze ich bin wohl doch nicht der Einzige der so spät noch unterwegs ist.
+<br>
+Der andere Fahrer kommt rasch näher wird aber langsamer und fährt mir dicht hinterher. Warum der Typ wohl nicht überholt wenn er es so eilig hat? Mit Gegenverkehr hat er wohl kaum zu rechnen.
+$option: Weiter => /Lars031
+$end
+</content>

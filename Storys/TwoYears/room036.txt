@@ -1,0 +1,8 @@
+<content>
+$background: Pics/BG/black.png
+$music: Audio/AUS
+$sound: Audio/stab.mp3
+$text: „Wir können hier nicht verweilen… Ihre Augen sind Ü-B-E-R-A-L-L…“ Und das ist alles woran ich mich erinnern kann. 
+$option: Weiter => /room037
+$end
+</content>

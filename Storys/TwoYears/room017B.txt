@@ -1,0 +1,9 @@
+<content>
+$background: Pics/BG/treppenhaus.png
+$sound: Audio/haustuer_lauttreppenhauslangsam.mp3
+$text: Das Treppenhaus ist dreckig, die Fenster sind auch dreckig, und die ganzen Graffitis an den Wänden sind das, was diesen Flur so herrlich schrecklich wirken lässt. Neben „Ass“ und „F*** the State“ gibt es noch andere obszöne Kritzeleien. Keiner von denen beherrscht die Gabe der Kunst, das denke ich mir immer wieder. 
+<br>
+Dass sich hier aber keiner darum kümmert, das Treppenhaus sauber zu halten, wundert mich schon seit geraumer Zeit. Die Miete ist aber günstig, also kann es mir sowieso egal sein.
+$option: Weiter => /room018B
+$end
+</content>

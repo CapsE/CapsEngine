@@ -1,0 +1,17 @@
+<content>
+$set: visit10C => 1
+$sound: Audio/kaffeeguss.mp3
+$text: Ich fange an zu lachen und lasse den Kaffee in einen Becher gießen. 
+<br>
+„Was würdest du nur ohne mich machen, Schnucki? Du weißt, dass ich das tun kann, aber ich brauch ein klein wenig. Ich muss erst einmal mein Hirn hochfahren, dann mache ich mich aber auf dem Weg, ´kay?“
+<br>
+Sie lacht. Sie hat ein herzliches Lachen, was mir meine Laune immer versüßt.
+<br>
+„Das habe ich schon irgendwie erwartet. Ist schon okay, mach aber bitte nicht zu lang!“ 
+<br>
+„Ja. Kein Problem.“ Ich lege auf. Ein paar Schlucke vom Kaffee, und mein Körper fühlt sich gleich lebendiger an. Während ich mein, sagen wir mal „Zimmer“, so betrachte, fällt mir auf, dass ich vielleicht mal aufräumen sollte.
+<br>
+Leider schaut mein Joker-Poster an der Badezimmertür mich so verlockend an. Da steht „Duschen? Wash your back!“. „Yes, I will was my back!“ Ich zwinkere das Poster an. Mein Humor lässt zu wünschen übrig, aber der ist sowieso nur für mich.
+$option: Weiter => /room011C
+$end
+</content>

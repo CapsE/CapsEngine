@@ -1,0 +1,7 @@
+<content>
+$endMusic: --
+$sound: Audio/unfall_sturz.mp3
+$text: Ehe ich mich versah, schlug ich in der Luft ein paar Saltos, und landete unsanft auf den Boden. Gott sei Dank landete ich nicht ungünstig… Trotzdem sind die Schmerzen in meinem Körper nicht ohne. Ich liege noch eine Weile auf den Boden, mit den Gedanken noch nicht präsent. Ein Schatten fällt auf mich nieder…
+$option: Weiter => /room034
+$end
+</content>

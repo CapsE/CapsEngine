@@ -1,0 +1,7 @@
+<content>
+$root: Storys/TwoYears
+$sound: Audio/aufsmotorrad_start.mp3
+$text: Heute wird eine erholsame und einsame Nacht werden. Manchmal muss ein Mann nur für sich sein. Mein Körper wird es mir danken. Ich steige auf mein Motorrad und fahre los. Ich schaue noch nach links und rechts, sehe aber nichts unauffälliges, die Straße ist ruhig und verlassen.
+$option: Weiter => /room030
+$end
+</content>

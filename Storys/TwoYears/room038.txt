@@ -1,0 +1,9 @@
+<content>
+$text: Es hat sich herausgestellt, dass viel mehr im Gange war, als ich mir jemals vorstellen konnte. Ich wurde absichtlich mit falscher Information gefüttert, um in diese Stadt zu kommen. Dann wurde ich beobachtet, und zwar jeden einzelnen Schritt, von zwei Organisationen: Den Templern und den Illuminaten. Mein Vater hat bei den Templern gearbeitet, und war verfeindet mit den Illuminaten. Aufgrund dessen wurde ich im Hintergrund geschützt und gejagt. Wer weiß, wie viele wegen mir umkommen mussten…
+<br>
+Ich soll für meinen Vater bürgen, und so arbeite ich nun für die Templer. Nicht, dass ich da eine Wahl hatte. Sie halfen mir bei mehreren Sachen, aber die spirituelle Energie in mir, geerbt von meinem Vater, macht mich zu einem wertvollen Verbündeten, aber auch einen gefährlichen Feind. Die letzten beiden Jahre wurde ich trainiert, und die Bedingungen waren unmenschlich. Doch… Der Preis war heftig. Mein normales Leben musste ich wegwerfen.
+<br>
+Nicht, dass es viel war oder mir eine Menge bedeutete. Es war vielmehr angenehmer, und was der Bauer nicht kennt, vermisst er nicht. Doch das ist nicht der Knackpunkt.
+$option: Weiter => /room039
+$end
+</content>

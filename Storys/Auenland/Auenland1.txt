@@ -1,0 +1,7 @@
+<content>
+$background:
+$text: Nun aber genug davon. Man könnte ja meinen die Hobbits seien ein streitsüchtiges kleines Völkchen. Eigentlich ist ein Hobbit aber genau dann am glücklichsten wenn er nichts weiter zu tun hat als sich etwas zu kochen und es dann genüsslich im Schatten eines Baumes zu verspeisen.<br>
+Aus diesem Grund sitzt du auch gerade mit einem belegten Brot in der Nähe des Dorfteichs unter einem Baum. Aus der angenehmen Kühle heraus beobachtest du wie die anderen auf der anderen Seite des Teichs die Zelte für das große Fest heute Abend aufstellen. „Die Trottel schuften in dieser Hitze…“ denkst du dir und schüttelst den Kopf während du deine Füße in den kleinen Bach neben dir baumeln lässt und genüsslich von deinem Brot abbeißt.
+
+$end
+</content>

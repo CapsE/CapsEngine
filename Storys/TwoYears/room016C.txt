@@ -1,0 +1,9 @@
+<content>
+$background: Pics/BG/draussen.png
+$music: Audio/draussen
+$text: … Das Wetter ist gut. Sehr gut sogar. Perfekt um aufs Motorrad zu steigen und die Straße hinunter zu düsen. Mit einem Motorrad habe ich nie große Probleme mit dem Verkehr, und komme dadurch meist gut hin. 
+<br>
+Zum Glück habe ich den gestern stehen gelassen… Wäre nicht schön ausgegangen, nach dem Abend.
+$option: Weiter => /room017C
+$end
+</content>

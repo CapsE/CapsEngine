@@ -1,0 +1,7 @@
+<content>
+$text: Die Zeit vergeht… Bis zwei Uhr morgens ist nichts Auffälliges passiert. Beziehungsprobleme, Familienkonflikte, Streitigkeiten auf der Arbeit. All jenes, banales Zeug, was für das Individuum beschäftigende Themen sind. Für jemanden wie mich, der nichts von all dem hier hat, ist es okay, das Gejammer anderer zu ertragen. Es führt meist nur dazu, dass ich nach der Arbeit mir irgendeine Frau angle oder mich volllaufen lassen. Oder beides. Aber heute ist mir nicht danach.
+<br>
+Der Qualm in der Bar hat sich schon fast zum Nebel geformt, und es sitzen nur noch zwei komische Gestalten vor mir. Einer liest ein Buch, und spielt die ganze Zeit an einer Kette herum, wo ein kleines goldenes Kreuz dran hängt. Der andere schreibt die ganze Zeit in irgendein Notizheft, und raucht Kette. Wunderbar… Ein neurotischer Traumtagebuchschreiber und ein trinkender Pastor. Zumal die auch nur ein Glas bestellt haben, und das ist schon eine Stunde her. Aber bevor keiner von denen was sagt, kann ich auch nicht reagieren, und nur Gläser putzen.
+$option: Weiter => /room026
+$end
+</content>

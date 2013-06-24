@@ -1,0 +1,6 @@
+<content>
+$music: Audio/maintheme
+$text: Das ist wirklich alles, woran ich mich erinnern kann. Danach wachte ich auf, in einem dunklen, kalten Raum. Dort wurde mir vieles erklärt, und je mehr ich erfuhr, umso mehr füllte sich mein Kopf mit Fragen. Die Person, die ich zuletzt sah, war kein Feind. Er hätte es aber sein können. Zumindest habe ich ihm mein Leben zu verdanken, meinen neuen Job, und meine neuen Kräfte. Und während ich da saß, umkreist von Menschen in roten Kutten die Kerzen hielten, wurde mir Wasser auf meinen Kopf geträufelt. Und ich sag euch… Ich wusste nicht, dass Wasser so sehr schmerzen kann. Ich dachte wirklich, dass ich geopfert werde um einen mächtigen Dämon heraufzubeschwören. Dem war aber nicht so. Es diente als Ritual: Der Beitritt der Templer.
+$option: Weiter => /room038
+$end
+</content>

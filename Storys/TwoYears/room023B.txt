@@ -1,0 +1,15 @@
+<content>
+$background: Pics/BG/pub.png
+$sound: Audio/metalltuer.mp3
+$text: Als ich eingetreten bin, spürte ich schon einen fiesen Blick. Stella stand am Tresen, sichtlich genervt. Sie schüttelt den Kopf.
+<br>
+„Rick, du bist echt unmöglich! Wegen dir bin ich jetzt zu spät!“
+<br>
+„Was denn? Meine Arbeitszeit beginnt um 18:30 Uhr, ich brauche nicht früher anzufangen. Und es ist erst kurz nach 18 Uhr. Wenn du dich anderweitig verabreden willst, plan die Zeiten besser ein, oder verabrede dich DANN, wenn du auch wirklich KANNST.“
+<br>
+Mein Ton war nicht sehr angenehm, aber das macht sie öfters. Es ist eigentlich kein Problem, aber manchmal nervt es mich schon. Damit sie sich amüsieren kann, muss ich mehr machen? Andersherum wird das sicher nicht gehen.
+<br>
+„Rick, manchmal bist du echt… Ach, was soll´s. Du denkst öfters nur an dich. Halt den Laden wenigstens sauber. Tschüss.“
+$option: Weiter => /room022
+$end
+</content>

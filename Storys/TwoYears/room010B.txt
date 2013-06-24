@@ -1,0 +1,8 @@
+<content>
+$set: visit10B => 1
+$text: „…Wie du bereits bemerkt hast: Ich bin gerade erst wach geworden! Ich kann nicht ständig früher anfangen! Wenn dich das stört, dann such gefälligst neue Mitarbeiter! Bis später.“ 
+<br>
+Und aufgelegt. Ein tiefer Seufzer entgleitet aus meinen Lippen, und ich habe schon wieder übertrieben. Super. Egal, es bringt nichts, sich darüber Gedanken zu machen. Sie weiß ganz genau, dass sie das nicht ständig abziehen kann.
+$option: Weiter => /room011B
+$end
+</content>

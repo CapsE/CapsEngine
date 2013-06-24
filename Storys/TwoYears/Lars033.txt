@@ -1,0 +1,4 @@
+$text: Als der Motorradfahrer direkt neben mir ist zielt er mit der Pistole genau auf meinen Kopf. "Sofort anhalten!" ruft er dumpf durch sein geschlossenes Visier und hat dabei eine Ruhe in seiner Stimme, die mir Schauer über den Rücken laufen lässt.<br>
+Ich bin vor Angst wie gelähmt und könnte seiner Anweisung, selbst wenn ich wollte, keine Folge leisten.
+$option: Weiter => room031
+$end

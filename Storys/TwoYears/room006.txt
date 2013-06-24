@@ -1,0 +1,11 @@
+<content>
+$music: Audio/smooth
+$sound: Audio/radioklick_dumpfeschritte.mp3
+$text: Ich schaue mich, nur in Boxer, in meinem Zimmer um, in der Hoffnung irgendetwas zu finden. Ich finde zwar eine leere Kondompackung,  was für mich nichts Neues ist, aber wenigstens weiß ich jetzt, dass ich die Nacht nicht alleine verbracht habe. Nummer 10 diesen Monat… 
+<br>
+Meine Leber dankt es mir aber nicht, wenn ich jedes Mal sturzbetrunken eine abschleppen muss. Mein Zimmer ist natürlich wieder so unordentlich wie eh und je. Leere Flaschen stehen auf dem Tisch, Klamotten überall verstreut, halboffene Kommoden, Teller mit Resten liegen irgendwo auf dem Boden…
+<br>
+Jetzt bin ich mir wenigstens sicher, dass ich Zuhause bin. Der Knall muss also von der Nummer von heute Nacht gekommen sein, als sie die Wohnung verließ. Hm… Gut so. Mehr Kaffee für mich.
+$option: Weiter => /room007
+$end
+</content>

@@ -1,0 +1,9 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/lenkenmrad_crash_muelltonnen.mp3
+$text: Ich versuchte, in die Gasse hineinzufahren. Aber ich habe es vergeigt. Ich verlor komplett die Kontrolle über mein Fahrzeug, und ich flog im hohen Bogen aus meinem Bike. Ich glaube, ich habe sogar kurz mein Bewusstsein verloren gehabt…
+<br>
+Denn ich lag verletzt zwischen Mülltonnen. Ich habe einen Moment gebraucht, um wieder gerade sehen zu können. Nicht das es mir half… Ich konnte einfach nicht aufstehen. Ich sehe nur noch ein Lichtkegel auf mich scheinen, und eine dunkle Silhouette taucht vor dem Lichtschein auf, als würde sie darin tanzen, und am Ende verzehrt sie das komplette Licht.
+$option: Weiter => /room034
+$end
+</content>

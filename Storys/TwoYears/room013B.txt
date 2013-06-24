@@ -1,0 +1,8 @@
+<content>
+$music: Audio/shower
+$text: Kaltes Wasser fließt an meinen Körper hinunter. An solchen Tagen ist dies der einzige Moment, wo ich mich vollkommen frei und unbeschwert fühle. Wie unter einem Wasserfall gelange ich hier in einen Meditativen Zustand, der mich komplett wiederherstellt. Hier vergesse ich alles, hier brauche ich nichts, hier gibt es nichts, außer klares, kaltes Wasser.
+<br>
+… Wie es wohl dem Alten so geht? Ach, vergiss es Rick. Darüber wolltest du nicht mehr nachdenken. Es vergehen noch einige Momente, und das plätschern des Wassers lassen mich wieder in die Welt eintauchen, die der eine Gedanke gerade zerstörte.
+$option: Weiter => /room014B
+$end
+</content>

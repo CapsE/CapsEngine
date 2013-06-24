@@ -1,0 +1,13 @@
+<content>
+$background: Pics/BG/helleszimmer.png
+$music: Audio/leiseatmodraussen
+$sound: Audio/dumpfeschritte_gardinen_fensterauf.mp3
+$text: Erfolg sieht anders aus, aber ich bin trotzdem noch hochgekommen. Ich schlendere in Richtung Fenster, ziehe die Gardinen auseinander und mach das Fenster auf, weil ich das Gefühl habe fast zu ersticken. Ich möchte nicht wissen, was für eine Fahne aus dem Fenster in die Außenwelt gelangt, aber was soll’s, nicht dass es mich interessiert. Das Licht aber brennt in meinen Augen wie Feuer!
+<br>
+„Himmel, was habe ich gestern noch gemacht?!“
+<br>
+Während ich mir die Augen wund reibe, male ich mir verschiedene Szenarien aus, was so gestern alles passiert sein könnte. Da ich bekanntlich in diesem Zustand so effektiv wie ein Hamsterrad-Modem bin, schalte ich die Anlage an, um erst einmal in Stimmung zu kommen.
+<br>
+$option: Weiter => /room006
+$end
+</content>

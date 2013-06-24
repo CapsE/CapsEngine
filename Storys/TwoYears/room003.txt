@@ -1,0 +1,7 @@
+<content>
+$text: Hm? Wie es dazu kam? Nun… Es ist keine atemberaubende Geschichte, aber immerhin ist es eine. Vielleicht tut mir die Pseudo-Zeitreise von meinem stinknormalen, aber zufriedenen Leben gut. Du willst mir also zuhören? Das könnte ein klein wenig länger dauern. 
+<br>
+Also, wenn du Zeit hast, dann hör‘ mir zu. Es ist schon fast zwei Jahre her, im Jahre 2012…
+$option: Weiter => /room004
+$end
+</content>

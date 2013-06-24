@@ -1,0 +1,9 @@
+<content>
+$music: Audio/bar
+$sound: Audio/zigarette.mp3
+$text: Ich zünde mir eine Zigarette an. Es dauert immer ein Weilchen, bis der Laden sich füllt, aber dieser Ort wirkt anziehend für Leute aller Art. Ich höre hier sehr viel. Sachen, die mich interessieren, und Sachen, die mich nicht interessieren. Manchmal gebe ich einen Rat, manchmal leihe ich denen nur ein Ohr. Man könnte das unterschätzen, aber der Informationsfluss hier ist reichhaltig an willkürlichstem Input. Einer der Gründe warum ich hier arbeite ist, Information über meinen Vater kriegen zu können. Es ist untypisch für meinen Alten einfach so zu verschwinden…
+<br>
+Und jene Information führte mich in diese Stadt, in diese Bar, in diesen Kreis der Gerüchteschenke. Und die Chancen stehen gut, hier was über ihn zu erfahren. Zumal ich ihm auch sehr ähnlich sehe… Das weckt bei ein oder den anderen die Erinnerung. Glück hatte ich aber bisher nicht.
+$option: Weiter => /room024
+$end
+</content>

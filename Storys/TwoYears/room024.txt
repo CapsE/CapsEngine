@@ -1,0 +1,7 @@
+<content>
+$text: Ich muss sicher nicht erwähnen, dass es auch viele schweigsame Leute hier gibt. Viele lesen ein Buch, oder trinken Cocktails. Die für mich „wichtigen“ Leute kommen alle erst spät, meist ein bis zwei Stunden vor Schluss. Und so vergeht die Zeit auch bis dahin meist damit, dass ich Getränke ausschenke, zuhöre, mir eine Zigarette anzünde, nebenbei was esse oder einfach nur doof grinse, die Gläser saubermache und die Leute dabei beobachte. 
+<br>
+Ein Barkeeper macht auch meist nichts anderes. Er ist sowas wie eine menschliche Wand. Gäste können hier all ihre Sorgen aussprechen, ohne eine Antwort erhalten zu müssen. Falls doch, sind sie weder kritisierend, noch subjektiv. Eine Reaktion gibt es allerdings immer, und das tut Menschen gut. Das gibt ihnen das Gefühl, nicht alleine zu sein. Und das kann ich gut.
+$option: Weiter => /room025
+$end
+</content>

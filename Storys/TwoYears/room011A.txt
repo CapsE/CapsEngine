@@ -1,0 +1,8 @@
+<content>
+$background: Pics/BG/toilet.png
+$music: Audio/AUS
+$sound: Audio/toilettuer_ausziehen.mp3
+$text: Ich betrete die Toilette, und ziehe mich schnell aus. Keine Zeit zu verlieren.
+$option: Weiter => /room012A
+$end
+</content>

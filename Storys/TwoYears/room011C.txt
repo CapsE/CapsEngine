@@ -1,0 +1,10 @@
+<content>
+$background: Pics/BG/toilet.png
+$music: Audio/AUS
+$sound: Audio/toilettuer_ausziehen.mp3
+$text: Schöne, liebe Dusche… Schönes, liebes Badezimmer… Die Kälte dieses Raumes tut mir sehr gut. Es ist der einzige Raum, der mir immer jegliche Freiheiten gibt. Hier fühle ich mich nicht eingeengt. Hier bin ich ICH selbst. Ein Tag ohne Duschen ist kein guter Tag.
+<br> 
+Es ist ein schlichtes Bad, aber dafür schaffe ich es immer, hier alles sauber zu halten. Mein Wunsch, mein Zimmer genauso sauber zu halten, bleibt jedoch vergebens. Was soll´s? Vater war auch immer unordentlich. Ich schiebe es einfach auf die Gene.
+$option: Weiter => /room012C
+$end
+</content>

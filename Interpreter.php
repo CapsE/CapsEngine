@@ -1,6 +1,7 @@
 <!DOCTYPE xhtml PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">	
 	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
 		<script language="javascript" src="Obj2D.js"></script>
 		<script language="javascript" src="TextReader.js"></script>
 		<script language="javascript" src="jQuery.js"></script>
@@ -12,8 +13,8 @@
 		<meta http-equiv="language" content="de"/>
 		<meta http-equiv="imagetoolbar" content="no"/>
 		<meta name="robots" content="noindex, nofollow"/>
-		<link rel="shortcut icon" href="Pics/Watermark2.ico" type="image/x-icon"/>
-		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+		<link rel="shortcut icon" href="Pics/Story.ico" type="image/x-icon"/>
+		
 		<meta name="viewport" content="width=1024" />
 		<link href="Style.css" rel="stylesheet" type="text/css">
 		<title>Dark History</title>
@@ -22,26 +23,32 @@
 		$startRoom = $_GET["r"];
 	?>
 	<div id="center">
-		<canvas id="myCanvas" onclick="fullClick()"></canvas>
-		<div id="menuBar">
-			<div id="musicControl" class="menuItem">Musik kontrolle</div>
-			<div id="safeLoadControl" class="menuItem">Laden und Speichern</div>
-			<div id="sizeControl" class="menuItem">Größe einstellen</div>			
-		</div>
-		<div id="showHide"><a onclick="toggleMenu()">Show/hide</a></div>
+		
 <!--################################################### normal View-->
+		<div id="barHolder">
+			<div id="controlBar" onclick="toggleBar()">
+				<div class="controlButton">-</div>
+				<div class="controlButton">Mute</div>
+				<div class="controlButton">+</div>		
+			</div>	
+			<div id="toggleButton" class="controlButton" onclick="toggleBar()" style="float:right; cursor:pointer;">hide</div>
+		</div>
 		<div id="normalView" style="">
-			<div id="watermarkHolder" onclick="fullClick()"></div>
-			<div id= "textField" class="textField" onclick="fullClick()"> 
-				<div id="text" class="text">
+			<canvas id="myCanvas"></canvas>
+			<img id="bg2" class="background" src="Pics/button.png" onclick="readNextRoom()"></img>
+			<img id="bg1" class="background" src="Pics/button.png" onclick="readNextRoom()"></img>
+			<img id="nextButton" src="Pics/NextButton.png" style="position:absolute; right:20%; top:80%; cursor:pointer; opacity:0.9" onclick="readNextRoom()"></img>
+			
+			<div id="textField"> 
+				<div id="text" onclick="readNextRoom()">
 					Moose sind grüne Landpflanzen, die in der Regel kein Stütz- und Leitgewebe ausbilden. Nach heutiger Auffassung haben sie sich vor etwa 400 bis 450 Millionen Jahren aus Grünalgen der Gezeitenzone entwickelt. Die Moose sind durch einen Generationswechsel gekennzeichnet, bei dem die geschlechtliche Generation (Gametophyt) gegenüber der ungeschlechtlichen (Sporophyt) dominiert. Der haploide Gametophyt ist die eigentliche Moospflanze, er kann lappig (thallos) oder beblättert (folios) sein. Kennzeichen der Moose sind die Photosynthesepigmente Chlorophyll a und b, Stärke als Speichersubstanz und Zellwände aus Zellulose, aber ohne Lignin. Es gibt rund 16.000 bekannte Arten. Die Wissenschaft von den Moosen heißt Bryologie. Die drei klassischen Sippen Hornmoose, Lebermoose und Laubmoose bilden einzeln jeweils natürliche Abstammungslinien, die Moose insgesamt sind jedoch keine natürliche Verwandtschaftsgruppe.
-				</div>	
+				</div>
+				<div id="buttonDiv">
+					<a id="buttonText" OnClick="readFile('Rooms/Room002.txt');">Raum2</a>
+				</div>				
+
 				<!--<div id="audiodiv" style="display: block; top: 0px; position: absolute; z-index: 1000;margin: -35px 0px 0px 0px;></div>-->
 			</div>
-			<div id="buttonDiv">
-				<a id="buttonText" OnClick="readFile('Rooms/Room002.txt');">Raum2</a>
-			</div>
-			<br/>
 			
 			<div id="sounddiv"></div>
 				
@@ -73,19 +80,17 @@
 <!--###################################################-->
 	</div>
 	<script language='javascript'>
-		var canvas = document.getElementById('myCanvas');
-		var menuVis = true;
-		var roomToRead = "t";
-		var roomDivs = [];
-		roomDivs.push(document.getElementById('textField'));
-		var paper = new Raphael(document.getElementById('center'),"100%","100%");
+		var barShown = true;
+		var nextRoom = "";
 		
 		var attr = {};
 		var rootFolder = "Rooms";
+		var fading;
+		var opacity = 1;
+		var audioElement = document.createElement('audio');
 		attr['hp'] = 1;
 		attr['init'] = 1;
 
-		var background = paper.image('Pics/button.png',0,0,"100%", "100%");
 		//var textfeld = new Picture('Pics/weiß.png',[canvas.width-270,canvas.height-140],[canvas.width-100, canvas.height-50],ctx);
 		var startRoom = '<?php echo $startRoom;?>';
 		console.debug("StartRoom: " + startRoom);
@@ -95,46 +100,41 @@
 		//var test = new Shadow([0,0],[element.offsetWidth, element.offsetHeight], ctx, 5);
 		//test.append(document.getElementById("textField"));
 				
-		function run(){			
-			
-		}
-		
-		function draw(){
-			ctx.clearRect(0,0,1000,1000);
-			//test.draw();
-			background.draw();
-			//textfeld.draw();
-		}
-		
-		function toggleMenu(){
-			if(menuVis == true){
-				document.getElementById("menuBar").style.display = "none";
-				document.getElementById("showHide").style.top = "0%";
-				menuVis = false;
+		function toggleBar(){
+			if(barShown){
+				barShown = false;
+				document.getElementById("controlBar").style.display = "none";
+				document.getElementById("toggleButton").innerHTML = "show";
 			}else{
-				document.getElementById("menuBar").style.display = "";
-				document.getElementById("showHide").style.top = "3%";
-				menuVis = true;
+				barShown = true;
+				document.getElementById("controlBar").style.display = "block";
+				document.getElementById("toggleButton").innerHTML = "hide";
 			}
 		}
 		
-		function fullClick(){
+		function readNextRoom(){
 			console.debug("click");
-			if(roomToRead != "t"){	
-				for(var i = 0; i < roomDivs.length; i++){
-					roomDivs[i].style.opacity = 0.2;
-				}
-				
-				if(roomDivs.length >= 5){
-					document.getElementById('normalView').removeChild(roomDivs.shift());
-				}
-				readFile(roomToRead);
+			if(document.getElementById("buttonDiv").innerHTML == ""){
+				readFile(nextRoom);
 			}
+			console.debug(attr);
 		}
 		
 		function rnd(x,y){
-			r = Math.floor((Math.random()*(y-x))+x); 
-			return r;
+			var v = Math.floor((Math.random()*(y-x))+x); 
+			return v;		
+		}
+		
+		function fade(){			
+			if(opacity > 0){
+				opacity -= 0.05;
+				document.getElementById("bg1").style.opacity = opacity;
+			}else{
+				window.clearInterval(fading);
+				document.getElementById("bg1").src = bg2.src;
+				document.getElementById("bg1").opacity = 1;
+				opacity = 1;
+			}
 		}
 
 	</script>

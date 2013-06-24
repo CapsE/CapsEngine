@@ -1,0 +1,11 @@
+<content>
+$text: „Hey… Wissen sie, sie erinnern mich an eine Person, mit der ich mal gearbeitet habe. Aber sie wirken viel schroffer als er… Wer war das noch gleich…?“
+<br>
+Der Leser schaut nachdenkend auf die Decke, der Schreiber schielt mit seinen Augen in seine Richtung. Ich jedoch hatte wohl für einen kurzen Moment einen Herzstillstand gehabt. Es ist ewig her, dass mich jemand so direkt auf mein Aussehen ansprach. Bis jetzt hatte ich auch nicht viel mehr herausgefunden, außer einigen Leuten, die mit ihm mal in derselben Firma gearbeitet haben. Das war es auch schon… Ich erhole mich schnell von diesem Schock. Der Typ vor mir ist bestimmt auch einer dieser Leute, die ihn nur von der Arbeit kennen.
+<br>
+„Nun, werter Herr, vielleicht verwechseln Sie mich auch. Solange die Person nicht Mike heißt, kann ich Ihnen versichern, dass Sie das tun.“
+<br>
+Ich putze weiter. Der Herr mustert mich einen Moment an und überlegt. Ist die Person, die er meint, wirklich mein Vater? Naja... Selbst wenn. Viele andere vor ihn fragten mich dieselbe Frage, und genauso viele reagierten wie dieser Mann vor mir.
+$option: Weiter => /room027
+$end
+</content>

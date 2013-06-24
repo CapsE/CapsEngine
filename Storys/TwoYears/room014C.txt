@@ -1,0 +1,10 @@
+<content>
+$background: Pics/BG/helleszimmer.png
+$music: Audio/leiseatmodraussen
+$sound: Audio/radio_aus.mp3
+$text: Klick. Es ist 16:45 Uhr. Geht noch!
+<br>
+Da kann ich Stella locker noch etwas mehr als einer Stunde früher aushelfen. Ich nehme meinen Helm mit, meine restlichen Sachen, schaue nochmal kurz aus dem Fenster, und schaue mich um. Okay… Also, auf geht`s. Bis später, mein geliebtes, ranziges Zimmer. 
+$option: Weiter => /room015C
+$end
+</content>

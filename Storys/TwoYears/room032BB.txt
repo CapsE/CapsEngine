@@ -1,0 +1,9 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/lenkenmrad_crash.mp3
+$text: Ich habe es noch geschafft, die Kurve zu kriegen. Der andere hatte allerdings nicht so viel Glück. Ich höre nur noch einen lauten Crash… Und Sicherheit wiegt sich endlich in meinem Herzen. Ich fahre langsamer, und langsamer… Und steige ab.
+<br>
+Ich torkelte vor Glück, Adrenalin und Erschöpfung, wie als wäre ich totaltrunken. Ich sitze mich auf den Bordstein und versuche, alles Revue passieren zu lassen. Mein Herz pocht so stark gegen meine Brust, als würde es fliehen wollen. Und so sitz ich da, das fahle Licht einer entfernten Laterne auf mich fallend. 
+$option: Weiter => /room033special
+$end
+</content>

@@ -1,0 +1,17 @@
+<content>
+$background: Pics/BG/pub.png
+$sound: Audio/metalltuer.mp3
+$text: Während ich die Bar betrete, winkt Stella zu mir rüber.
+<br>
+„Rick! Hast dir ja doch weniger Zeit gelassen als ich dachte!“
+<br>
+„Ja, ging irgendwie schneller.“ Sie schaut mich mit einem Grinsen an. Ich weiß ganz genau, was das heißt. Das habe ich schon oft genug erlebt.
+<br>
+„Schon okay, los, ich kümmer mich schon um alles.“
+<br>
+„Hach, danke dir! Wärst du ein wenig älter, dann würde ich dich glatt vernaschen!“ Sowas macht mich immer verlegen, aber ich stehe generell nicht auf Mütter. Außerdem bin ich schon 28... 
+<br>
+„Na, geh schon. Grüß die Kleine von mir!“ Ein bestätigendes Nicken und ein Zwinkern. Ich winke zurück.
+$option: Weiter => /room022
+$end
+</content>

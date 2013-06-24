@@ -1,0 +1,9 @@
+<content>
+$text: Mein Name ist Rick. Ich bin… Naja. Etwas speziell. Ich arbeite für eine Organisation, in die ich hineingezwungen worden bin. Davor war ich ein einfacher und unmoralischer Barkeeper mit einem verkorksten Schlafrhythmus und ’n guten Draht zu Frauen.
+<br>
+Den Draht habe ich heute noch, aber durch mein höllisches Training habe ich angefangen die Ladies besser wertzuschätzen. Und da hielt ich mich auch noch für unverbesserlich… 
+<br>
+Haha. 
+$option: Weiter => /room003
+$end
+</content>

@@ -1,0 +1,10 @@
+<content>
+$background: Pics/BG/helleszimmer.png
+$music: Audio/AUS
+$sound: Audio/radio_aus.mp3
+$text: Ich packe meine Sachen, nehme mein Helm, schalte das Radio aus. Bis später, mein geliebtes, ranziges Zimmer. Vielleicht sollte ich irgendwann mal aufräumen, wenn ich die Zeit habe.
+<br>
+Die habe ich aber nie, wenn ich aufräumen muss. Woran das wohl liegt?
+$option: Weiter => /room017B
+$end
+</content>

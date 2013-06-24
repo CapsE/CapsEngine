@@ -1,0 +1,13 @@
+<content>
+$sound: Audio/kaffeeguss.mp3
+$set: visit10A => 1
+$text: Ich lass nebenbei den Kaffee in ein Becher fließen, damit ich ihn schnell nach der Dusche trinken kann. Jetzt würde der mir nur die Zunge verbrennen. 
+<br>
+„…Ich mache mich auf den Weg, nach der Dusche. Bis gleich.“
+<br>
+„Wunderbar! Ich wusste ich kann mich auf dich verlassen!“
+<br>
+Ich lege kommentarlos auf. Also… Keine Zeit verschwenden. Es ist immer dasselbe, aber ich kann ihr keine Bitte abschlagen. Dabei schlafen wir nicht mal miteinander! Was soll’s…
+$option: Weiter => /room011A
+$end
+</content>

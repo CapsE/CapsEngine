@@ -1,0 +1,4 @@
+$text: Ich fühle mich verfolgt. Hoffentlich ist das kein wütender Ehemann, der noch eine Rechnung mit mir offen hat. Vielleicht mache ich mir aber auch einfach nur zu viele Sorgen. Ob ich wohl versuchen sollte den Kerl abzuhängen?
+$option: Weiter fahren wie bisher => Lars032A
+$option: Abbiegen und einen Umweg fahren => Lars032B
+$end

@@ -1,0 +1,8 @@
+<content>
+$background: Pics/BG/treppenhaus.png
+$music: Audio/AUS
+$sound: Audio/haustuer_lauttreppenhausschnell.mp3
+$text: Ich verlasse meine Wohnung und laufe das Treppenhaus hinunter. Man, wie ich Eile verabscheue. Da mir aber das Verhältnis zu Stella einigermaßen wichtig ist, will ich mein schon schlechtes Bild nicht noch mehr vermiesen.
+$option: Weiter => /room016A
+$end
+</content>

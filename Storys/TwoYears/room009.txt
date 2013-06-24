@@ -1,0 +1,13 @@
+<content>
+$text: „Ja… Was? Sag bloß, ich soll heute früher da sein?“
+<br>
+„JA! Du verstehst mich, du bist auch mein bester Mann. Oder der einzige…“ 
+<br>
+Ich seufze. Stella ist meine Chefin aus der Bar, und wir sind erbärmlich unterbesetzt. Eigentlich hätte ich es wissen müssen, schließlich bin ich neben ihr die einzige Person, die dort noch arbeitet. Ich hau meinen Kopf gegen mein Küchenregal, weil ich einfach keine Lust habe. Muss ich mich jetzt beeilen?
+<br>
+Ich antworte…
+$option: „… Ich mache mich auf den Weg, bis gleich.“ => /room010A
+$option: „… Ich bin gerade erst wach geworden!“ => /room010B
+$option: „… Was würdest du nur ohne mich machen?“ => /room010C
+$end
+</content>

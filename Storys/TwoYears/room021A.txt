@@ -1,0 +1,15 @@
+<content>
+$background: Pics/BG/pub.png
+$sound: Audio/metalltuer.mp3
+$text: Kaum bin ich eingetreten, stürmt schon Stella auf mich zu.
+<br>
+„RICK! Wunderbar, war ja schneller als ich erwartet habe.“
+<br>
+„Naja, auf mich kann man sich verlassen, wenn es sein muss.“ Sie ist sichtlich erfreut.
+<br>
+„Also, Rick, dann mach schon mal den Laden fit! Ich muss los, was Dringendes zu erledigen. Tut mir leid, aber es ist sehr wichtig.“
+<br>
+„Was…?!“ Sie hat mich gerufen, weil ich den Laden schon wieder alleine schmeißen muss, und sie sich amüsieren möchte! Wieso bin ich nicht schon vorher darauf gekommen? Typisch Stella… Wenigstens hat sie meist ein sonniges Gemüt. Und ob sie sich amüsiert, weiß ich jetzt auch nicht.
+$option: Weiter => /room022
+$end
+</content>

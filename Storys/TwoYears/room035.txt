@@ -1,0 +1,12 @@
+<content>
+$sound: Audio/klonk_umfallen.mp3
+$text: Klonk. Die Person fällt auf mich, und plötzlich steht da eine ganz andere Person, als hätte sie sich gehäutet. Die Person tritt näher, und schaut mir verdächtig in die Augen.
+<br>
+„Meine Güte, sie haben echt Schwein, das ich gerade in der Nähe war!“
+<br>
+Mir war’s egal. Ich habe nicht das Gefühl, als würde das eine gute Nachricht sein. Unbehagen breitet sich in mir aus, als der mysteriöse Mann seine Hand langsam auf mein Gesicht zubewegt. Aus seinem Ärmel fällt eine kleine Kette mit einem goldenen Kreuz raus, als würde sie mich läutern, bevor ich in Richtung Himmel fahre.
+<br>
+Komischerweise beruhigte mich das Kreuz ungemein. Die Schatten um mich verwandeln sich in unzählige Lichtstrahlen, alles wird Weiß. Weit entfernt höre ich Gesang…
+$option: Weiter => /room036
+$end
+</content>

@@ -1,0 +1,10 @@
+<content>
+$background: Pics/BG/helleszimmer.png
+$music: Audio/smooth
+$sound: Audio/toilettuer.mp3
+$text: Das Radio läuft noch, und mein Zimmer hat langsam wieder ordentliche Luft. Ich schau auf mein Handy und sehe: 17:45 Uhr.
+<br>
+Sehr gut. Viel Zeit verschlampt mit sinnlosem Denken. Ich strecke mich noch ein wenig, dabei bleibt mein Blick auf mein Motorrad Helm hängen. Der Helm hat ein schlichtes Muster. Schwarz. Unauffällig. Genau mein Stil.
+$option: Weiter => /room016B
+$end
+</content>

@@ -1,0 +1,6 @@
+<content>
+$text: Mein Vater ist spurlos verschwunden, und er hat dabei etwas mitgehen lassen. Ein Artefakt der Templer, um genau zu sein, welches eine große Macht enthält. Die Früchte des Trainings erlaubt es mir, Mächte einzusetzen, die den Templern helfen soll, das Artefakt wieder zu beschaffen. Das interessiert mich jedoch bis heute nicht. Mir geht es nur um meinen Vater. Verschiedene Gefühle schwirren in mir herum, wenn ich an ihn denke. Ich weiß nicht, ob ich ihn umarmen oder auseinanderreißen soll, falls ich ihn jemals finden werde. Eins weiß ich aber sicher. Die Welt, die ich jetzt sehe, sollte keiner sehen. Alles, was wir kennen und sehen, wird im Hintergrund von Organisationen wie jene kontrolliert. Volksverdummung und Medienkontrolle…
+<br>
+Nur Auserwählte dürfen die Möglichkeit besitzen, etwas auf dieser Welt ändern zu können. Und sobald ich meinen Vater gefunden habe… Werde ich diese Möglichkeit mir zu Herzen nehmen, und alles Erdenkliche tun, um das herkömmliche Volk zu befreien. Selbst wenn das bedeutet, der größte Feind aller zu werden. Und ich bin sicher nicht alleine. Ganz sicher nicht.
+$end
+</content>

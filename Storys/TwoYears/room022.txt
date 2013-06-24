@@ -1,0 +1,10 @@
+<content>
+$sound: Audio/metalltuer.mp3
+$text: Und weg ist sie. Es ist oft so, dass sie mehr zu tun hat, als diese Bar. Sie ist eine wirklich nette Frau, aber manchmal etwas durcheinander. Ich zucke mit den Schultern, und fange an mit der Arbeit. Es ist das übliche, nichts Erwähnenswertes. Eis vorbereiten, Gläser waschen, Getränke bereitstellen, Musik, Licht, Stühle… Der Laden hier besitzt nicht viele Plätze. Es ist auch kein Ort zum Abhängen für Partymenschen. 
+<br>
+Vielmehr ist dies hier eine Versammlung von Leuten, die ihre Seele baumeln lassen wollen. Diejenigen, die vom Gewohnten weg wollen, aber nachdem sie durch die Tür eingetreten sind, sich hier wie „Zuhause fühlen“. Deshalb auch „Stellas Star“: 
+<br>
+Es ist wie auf einer Wiese in der Nacht, auf den Sternenhimmel starrend. Hier soll man Offenbarungen erhalten, und meine Cocktails sollen dabei helfen. Daher ist es auch sehr dunkel hier, zumindest erkennt man vom Tresen aus nicht viel, es reicht aber, um Bücher zu lesen.
+$option: Weiter => /room023
+$end
+</content>

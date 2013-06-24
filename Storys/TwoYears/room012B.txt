@@ -1,0 +1,12 @@
+<content>
+$background: Pics/BG/toilet.png
+$music: Audio/AUS
+$sound: Audio/toilettuer_ausziehen.mp3
+$text: Ich betrete das Badezimmer, schlendernd, und ziehe mich langsam aus. Es ist ein schlichtes Badezimmer mit schlichter Ausstattung. Keine Badewanne, nur eine Dusche, aber Duschen mag ich auch viel lieber.
+<br>
+Ich liebe Duschen. Ich liebe mein schlichtes Badezimmer. Es ist wie ich. Schlicht und kalt. Ich stehe vor dem Spiegel und mache ein paar machohafte Bewegungen. Obwohl ich nicht mehr trainiere, habe ich immer noch einen gut gebauten Körper. Etwas, worauf ich immer Stolz war.
+<br>
+Viel mehr kann ich auch nicht. Ich bin ziemlich untalentiert, ich kann von Glück reden, dass ich überhaupt ein paar Cocktails mixen kann. Apropos mixen… Vielleicht sollte ich mich mal in Bewegung setzen. Ich hab nicht alle Zeit
+$option: Weiter => /room013B
+$end
+</content>

@@ -1,0 +1,7 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/bremsen_unfall.mp3
+$text: Was zum…?! Die Person steht, vom Motorrad schon abgestiegen, neben sein Gefährt. Die einzige Möglichkeit, die mir da noch bleibt ist, direkt reinzufahren… Und das tat ich auch. Ich flog weit, landete aber glücklich. Mein Körper schmerzt, und ich bin noch bei Bewusstsein, aber ob das jetzt eine Wendung zum Guten ist, sei mal dahingestellt. 
+$option: Weiter => /room034
+$end
+</content>

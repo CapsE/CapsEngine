@@ -1,0 +1,9 @@
+<content>
+$text: Das Motorrad hat mir damals mein Vater gekauft, zur Gratulation meines 21ten Geburtstages. Sieben Jahre ist es bisher her, und ich habe sie seither gepflegt wie meinen eigenen Körper. Nein, besser sogar.
+<br>
+Mein Vater hatte viel Geld. Er war ein hohes Tier in irgendeiner Firma, aber mehr wusste ich auch nie. Eigentlich weiß ich kaum etwas über meinen Vater. Er war sehr geheimnisvoll, aber dennoch ein gütiger Mann. Wir hatten ein merkwürdiges Verhältnis gehabt, komplett unterschiedliche Interessen, Geschmäcker… Er war sehr extravagant, ich eher schlicht mit Stil. Man könnte sogar sagen, dass er ein Idealist war, ich hingegen nur ein fauler Rebell.
+<br>
+Wir stritten uns oft über Kleinigkeiten… Aber wir waren unsere einzige Familie. Meine Mutter ist bei meiner Geburt gestorben. Über die gibt es nicht viel zu sagen. Selbst mein Vater schwieg immer.
+$option: Weiter => /room020C
+$end
+</content>

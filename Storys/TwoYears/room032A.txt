@@ -1,0 +1,6 @@
+<content>
+$text: Ich fahre lieber weiter geradeaus. Mein Widersacher bleibt mir immer noch dicht auf die Fersen. So passiert nichts… Erneut sehe ich eine Gabelung vor mir. Diesmal sollte ich vielleicht…
+$option: Fahre weiter die Straße entlang => /room032AA
+$option: Fahre in die Gasse => /room032AB
+$end
+</content>

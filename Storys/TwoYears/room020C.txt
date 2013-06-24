@@ -1,0 +1,7 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/motorradaus.mp3
+$text: Und schon bin ich da. Die Zeit kann schnell vergehen, wenn man in Gedanken ist. Die Bar „Stellas Star“. Von außen wirkt sie schlicht, aber sie ist viel edler als man sich das vorstellt. Irgendwie wie eine Paarung von rustikalem Pub mit einem Hauch von Moderne. Ich stelle mein Motorrad ab, und stehe vor der Metalltür. Stellas Bike steht auch schon hier. Ein rosa Modell…Das ist wohl das einzig weibliche, was sie zeigt.
+$option: Weiter => /room021C
+$end
+</content>

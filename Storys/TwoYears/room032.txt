@@ -1,0 +1,7 @@
+<content>
+$sound: Audio/beschleunigung.mp3
+$text: Der Verfolger beschleunigt auch. Durch die plötzliche Aktion konnte ich mir einen kleinen Vorsprung erarbeiten aber im Rückspiegel sehe ich das der Fremde bereits aufholt. Ein blau leuchtendes Projektil fliegt von hinten knapp an meinem Kopf vorbei. Oh Shit! Oh Shit! Oh Shit! An mehr kann ich nicht denken. Vor mir erkenne ich eine Gasse. Sie ist sehr schmal und bei meiner Geschwindigkeit ist es riskant in sie einzubiegen. Andererseits werde ich von einem Irren mit einer Pistole verfolgt. Was soll ich nur tun?
+$option: Fahre weiter die Straße entlang => /room032A
+$option: Fahre in die Gasse => /room032B
+$end
+</content>

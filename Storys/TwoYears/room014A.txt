@@ -1,0 +1,8 @@
+<content>
+$background: Pics/BG/helleszimmer.png
+$music: Audio/leiseatmodraussen
+$sound: Audio/raido_aus.mp3
+$text: Schnell das Radio ausgeschaltet, den halbwegs kalten Kaffee in einem Zug getrunken und den Helm geschnappt. Schlüssel, Portemonnaie, Krams… Alles in meiner Hose. Gut. Keine Zeit zu verlieren.
+$option: Weiter => /room015A
+$end
+</content>

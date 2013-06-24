@@ -1,0 +1,11 @@
+<content>?
+$root: Storys/Auenland
+$background: Pics/TheShire.png
+$text: Achja… das Auenland. Wohin das Auge blickt nichts als grüne Wiesen, große Bäume und seichte Teiche und Bäche. Fast schien es als wäre es der perfekte Ort zum Leben. Wären da nicht die sturen Karrengards und die Humbelpolds und all die anderen Hobbit-Familien die sich gegenseitig eigentlich überhaupt nicht mochten. <br>
+Warum „eigentlich“? Nun es gehört zu den Traditionen der Hobbits große Feste zu feiern und obwohl während der Planung dieser Feste die Unfreundlichkeit unter verschiedenen Familien ihren Höhepunkt erreicht, so ist spätestens nach dem zweiten Bier auf der Feier eigentlich alles wieder in Ordnung. <br>
+Warum „eigentlich“? Naja weil man meistens nach spätestens dem dritten Bier einen neuen Grund gefunden hat eine der anderen Familien nicht zu mögen.  Und so gibt es einen traditionellen Zyklus in dem verschiedene Familien nicht miteinander sprechen nur um sich dann wieder zu versöhnen und sich mit der nächsten Familie anzulegen. <br>
+
+$option: Weiter => /Auenland1
+$music: Music/TheShire
+$end
+</content>

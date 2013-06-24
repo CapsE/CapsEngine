@@ -1,0 +1,10 @@
+<content>
+$music: Audio/heartbeats
+$text: Mein Kopf! Alles pulsiert, mein Körper vibriert… Als ob ich gleich explodiere…! 
+<br>
+„Fühlst du dich gerade nicht wohl? Vielleicht hast du dir ja wehgetan. Soll ich mal schauen?“
+<br>
+Ehe ich mich versah, lag ich schon auf dem Boden. Seine Hand versucht mich zu erreichen, und ich Strecke meine Hand gen seine. Aber diese Entfernung… Sie ist so wahnsinnig weit weg. Eine Spur von Demut macht sich in mir breit, obwohl ich Angst und Verzweiflung spüren sollte. Weit entfernt höre ich Gesang…
+$option: Weiter => /room036
+$end
+</content>

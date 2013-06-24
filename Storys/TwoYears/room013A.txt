@@ -1,0 +1,7 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/showerend_towelaction_anziehen.mp3
+$text: Fertig. Ich steig aus der Dusche und trockne mich schnell ab. Das Zähneputzen muss ich wohl sein lassen, aber wofür gibt es diese tollen Zahnpflege Kaugummis? Für solche Fälle habe ich immer welche liegen. 
+$option: Weiter => /room014A
+$end
+</content>

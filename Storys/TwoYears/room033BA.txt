@@ -1,0 +1,10 @@
+<content>
+$sound: Audio/beschleunigung.mp3
+$text: Er bleibt trotzdem hartnäckig… Fällt aber immer weiter zurück. Die Karten sehen gut aus für mich! 
+<br>
+Das ist jeden Falls das, was ich gedacht habe, bis plötzlich mein Bike anfing zu spinnen. Die Ironie des Schicksals ist heute wirklich ungünstig. Sehr, sehr ungünstig.
+<br>
+Ich verliere langsam die Kontrolle über mein Motorrad! Verdammt, ausgerechnet heute… Ich wusste doch, dass etwas nicht stimmt. Das Radio hat es mir doch schon gezeigt…
+$option: Weiter => /room034BA
+$end
+</content>

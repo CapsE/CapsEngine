@@ -1,0 +1,12 @@
+<content>
+$sound: Audio/kaffeeguss.mp3
+$text: Ich gieße den Kaffee in ein Becher, und schaue nebenbei aus dem Fenster. Bah, gutes Wetter, und ich kann nur meinen Job machen. Aber eigentlich habe ich Stella überhaupt alles zu verdanken… 
+<br>
+Schließlich war ich lange joblos, und diese Frau hat mir einen Job gegeben, obwohl ich keine Ahnung hatte. Ich mache den Job schon seit ungefähr 10 Monaten, und ich mit meinen Autoritätskomplexen hätte schon längst gefeuert werden müssen. Diese Frau hat aber glücklicherweise Nerven aus Stahl, kann meine Launen gut vertragen. Eigentlich könnte sie gutes Heiratsmaterial sein, aber… 
+<br>
+Ach, verdammt. Jetzt bekomme ich ein schlechtes Gewissen. Während ich meinen Kaffee austrinke, stehe ich noch einen Moment vor dem Fenster, in leeren Gedanken verloren, bis ich nur noch Luft aus dem Becher trinke, was mir erst nach ein paar Minuten aufgefallen ist. 
+<br>
+„Man… Bin ich wasted.“ Ich schaue die Badezimmertür an. Ein Poster vom Joker lacht mich an, mit Edding geschrieben sagt er mir liebevoll: „Duschen? Wash your back!“
+$option: Weiter => /room012B
+$end
+</content>

@@ -1,0 +1,10 @@
+<content>
+$background: Pics/BG/abenddraussen.png
+$music: Audio/windigabend
+$sound: Audio/schluessel_metalltuer.mp3
+$text: Ich bin fertig und schließe den Laden ab. Der Abend ist schön. Sehr ruhig und ohne Tumult, wie am Wochenende meist der Fall ist. Ich nehme ein Mal tief Luft, und bin heute fester Überzeugung, dass ich nirgends wo hin fahre, außer nach Hause. Komischerweise geht es mir heute besser als sonst.
+<br>
+Vielleicht, weil es doch noch Menschen gibt, die meinen Vater in Erinnerung haben. Leider konnte ich heute nichts Neues in Erfahrung bringen… Die Hoffnung stirbt aber zuletzt.
+$option: Weiter => /room029
+$end
+</content>

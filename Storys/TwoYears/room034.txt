@@ -1,0 +1,11 @@
+<content>
+$music: Audio/windigabend
+$sound: Audio/pistolload.mp3
+$text: Mein Verfolger steht direkt vor mir. Ich kann nur ein Grinsen ausmachen, und eine Pistole, die auf mich gerichtet ist. Ich höre nur noch einen Klick. Großartig… Mein Leben soll also so enden? Ohne zu wissen, warum ich sterben muss? Wurde der Typ geschickt, um mich zu ermorden? Hegt die Person einen persönlichen Groll?
+<br>
+Ich wollte ja Fragen, aber ich kriege kein Wort raus. Anscheinend war der Sturz doch etwas zu viel. Regungslos liege ich nun da, vor meinen Henker. Die Straßen sind wortwörtlich so leer, als würde diese Szene schon seit längerem geplant worden sein.
+<br>
+Keiner kann mir helfen. Die Lichter der umliegenden Häuser sind aus. Niemand wird mir helfen können. Wer nicht nach Hilfe schreien kann, dem kann auch nicht geholfen werden… Und ich wünschte ich wäre jetzt bewusstlos.
+$option: Weiter => /room035
+$end
+</content>

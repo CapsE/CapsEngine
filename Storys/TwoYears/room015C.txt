@@ -1,0 +1,10 @@
+<content>
+$background: Pics/BG/treppenhaus.png
+$music: Audio/AUS
+$sound: Audio/haustuer_lauttreppenhauslangsam.mp3
+$text: Das Treppenhaus ist dreckig, die Fenster sind auch dreckig, und die ganzen Graffitis an den Wänden… Das Treppenhaus lässt mich immer so nostalgisch wirken. Ich habe nie wohlhabend gelebt, aber ich bin auch ein schlichter Typ. Mir reicht das hier schon… 
+<br>
+Dass sich hier aber keiner darum kümmert, das Treppenhaus sauber zu halten, wundert mich schon seit geraumer Zeit. Die Miete ist aber günstig, also ist es schon okay.
+$option: Weiter => /room016C
+$end
+</content>

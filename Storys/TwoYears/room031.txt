@@ -1,0 +1,11 @@
+<content>
+$music: Audio/dramatic
+$sound: Audio/pistol.mp3
+$text: Der Wahnsinnige schießt auf mich!
+<br>
+Ich stehe so sehr unter Schock das ich nichteinmal sagen kann ob er mich getroffen hat. Ohne Vorwarnung kann ich mich aus meiner Angststarre befreien. Adrenalin strömt in windeseile durch jede Zelle meines Körpers. Unter anderen Umständen hätte ich dieses Prickeln vieleicht sogar genießen können aber jetzt gewinne ich daraus nur eine Einzige Erkenntnis.
+<br>
+Ich muss Vollgas geben!
+$option: Weiter => /room032
+$end
+</content>

@@ -1,0 +1,12 @@
+<content>
+$background: Pics/BG/strasse.png
+$music: Audio/motorradfahren
+$sound: Audio/kriselradio.mp3
+$text: Der Wind weht durch mich hindurch, die Autos wirken wie Fetzen oder Schlieren ihrer eigentlich Form. Der Weg ist etwas weit, und ich brauche ca. 30 Minuten, aber das ist vollkommen okay.
+<br>
+Jedes Mal spüre ich die Freiheit, wenn ich mit ihr durch die Gegend düse. Obwohl es erst ein paar Tage her ist, habe ich es schon total vermisst. Born to be wild – Wenn mein Radio es doch nur laufen lassen könnte. 
+<br>
+Bevor ich weiterhin Kopfschmerzen kriege, sollte ich`s lieber ausschalten, obwohl der letztens noch funktionierte. Schade eigentlich, muss ich wohl wieder auf CDs zurückgreifen, von denen ich keine habe. Ich muss früher aufstehen und mal beim Plattenladen vorbeischauen… Wenn ich es mal schaffe.
+$option: Weiter => /room019C
+$end
+</content>

@@ -1,0 +1,8 @@
+<content>
+$music: Audio/shower
+$text: Ich stelle die Dusche an, und steig hinein. Während das lauwarme Wasser über meinen Körper prasselt, denke ich meist über alles Mögliche nach. Da ich aber keine Zeit habe, und mich beeilen muss, versuche ich es kurz zu fassen.
+<br>
+Ich liebe Duschen. Es ist das einzige Vergnügen an so einem schrecklichen Morgen. Oder Nachmittag. Oder wie auch immer mein Schlafrhythmus und Körper die Tageszeit definieren mag.
+$option: Weiter => /room013A
+$end
+</content>

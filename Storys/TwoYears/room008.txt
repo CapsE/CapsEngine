@@ -1,0 +1,12 @@
+<content>
+$sound: Audio/telefon.mp3
+$text: Argh! Das Handy! Wer ruft mich in dieser unchristlichen Stunde an? Es kann sich nur um eine Person handeln… Ich schau auf mein Handy und sehe den Namen: Stella.
+<br>
+Klasse. Ich bin nicht gut um Raten, aber DAS habe ich jetzt wirklich gewusst. Ich gehe ran, und das erste was ich höre ist:
+<br>
+„RICK! AUFSTEHEN! Ich weiß, dass du gerade erst wach geworden bist, also trink‘ deinen blöden Kaffee, und mach‘ dich gefälligst fertig!“
+<br>
+Wie sie auch immer weiß, was ich gerade mache. Ist ja auch nicht verwunderlich, schließlich verläuft mein Leben fast so ab wie bei „Täglich schläft das Murmeltier“.
+$option: Weiter => /room009
+$end
+</content>

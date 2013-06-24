@@ -1,0 +1,8 @@
+<content>
+$sound: Audio/schritte_klatschen.mp3
+$text: „Bravoooo, Mr. Rick. Bravooooo!“ Aus dem Schatten entspringt eine Gestalt, die mir bekannt vor kommt. Sie klatscht mit den Händen, als würde mir Applaus gebühren, und mustert mich amüsiert an.
+<br>
+„Ich wollte ihnen noch helfen, aber anscheinend konnten sie das Problem ganz gut alleine lösen. Sehr beachtlich, muss ich sagen. Gut. Sehr gut.“ An einer Hand hing eine Kette mit goldenem Kreuz. Ich habe diese Person heute gesehen! Seine Gestalt steht da, die Schatten um ihn wirken wie eine Kulisse für einen Auftritt dem seiner gebührt. Plötzlich bekomme ich starke Kopfschmerzen.
+$option: Weiter => /room034special
+$end
+</content>

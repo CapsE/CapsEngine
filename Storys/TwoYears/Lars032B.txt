@@ -1,0 +1,4 @@
+$text: Ich fahre kurzfristig in eine Seitenstraße. Ohne zu zögern fährt mir der Unbekannte hinterher. Jetzt bin ich mir sicher das ich verfolgt werde.<br>
+Besorgt schaue ich immer wieder in den Rückspiegel. Der Fremde ist jetzt schon bis auf fünf Meter an mich heran gefahren. Ohne Vorwarnung setzt er zum Überholen an und zieht dabei eine Pistole aus seiner Tasche...
+$option: Weiter => Lars033
+$end

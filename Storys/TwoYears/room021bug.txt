@@ -1,0 +1,46 @@
+<content>
+$background: Pics/BG/pub.png
+$sound: Audio/metalltuer.mp3
+$if: attr["visit10A"] >= 1
+then: $text: Kaum bin ich eingetreten, stürmt schon Stella auf mich zu.
+<br>
+„RICK! Wunderbar, war ja schneller als ich erwartet habe.“
+<br>
+„Naja, auf mich kann man sich verlassen, wenn es sein muss.“ Sie ist sichtlich erfreut.
+<br>
+„Also, Rick, dann mach schon mal den Laden fit! Ich muss los, was Dringendes zu erledigen. Tut mir leid, aber es ist sehr wichtig.“
+<br>
+„Was…?!“ Sie hat mich gerufen, weil ich den Laden schon wieder alleine schmeißen muss, und sie sich amüsieren möchte! Wieso bin ich nicht schon vorher darauf gekommen? Typisch Stella… Wenigstens hat sie meist ein sonniges Gemüt. Und ob sie sich amüsiert, weiß ich jetzt auch nicht.
+$option: Weiter => /room022
+$end
+else: $background: Pics/BG/pub.png 
+$if: attr["visit10B"] >= 1
+then: $text: Als ich eingetreten bin, spürte ich schon einen fiesen Blick. Stella stand am Tresen, sichtlich genervt. Sie schüttelt den Kopf.
+<br>
+„Rick, du bist echt unmöglich! Wegen dir bin ich jetzt zu spät!“
+<br>
+„Was denn? Meine Arbeitszeit beginnt um 18:30 Uhr, ich brauche nicht früher anzufangen. Und es ist erst kurz nach 18 Uhr. Wenn du dich anderweitig verabreden willst, plan die Zeiten besser ein, oder verabrede dich DANN, wenn du auch wirklich KANNST.“
+<br>
+Mein Ton war nicht sehr angenehm, aber das macht sie öfters. Es ist eigentlich kein Problem, aber manchmal nervt es mich schon. Damit sie sich amüsieren kann, muss ich mehr machen? Andersherum wird das sicher nicht gehen.
+<br>
+„Rick, manchmal bist du echt… Ach, was soll´s. Du denkst öfters nur an dich. Halt den Laden wenigstens sauber. Tschüss.“
+$option: Weiter => /room022
+$end
+else: $background: Pics/BG/pub.png
+$if: attr["visit10C"] >= 1
+then: $text: Während ich die Bar betrete, winkt Stella zu mir rüber.
+<br>
+„Rick! Hast dir ja doch weniger Zeit gelassen als ich dachte!“
+<br>
+„Ja, ging irgendwie schneller.“ Sie schaut mich mit einem Grinsen an. Ich weiß ganz genau, was das heißt. Das habe ich schon oft genug erlebt.
+<br>
+„Schon okay, los, ich kümmer mich schon um alles.“
+<br>
+„Hach, danke dir! Wärst du ein wenig älter, dann würde ich dich glatt vernaschen!“ Sowas macht mich immer verlegen, aber ich stehe generell nicht auf Mütter. Außerdem bin ich schon 28... 
+<br>
+„Na, geh schon. Grüß die Kleine von mir!“ Ein bestätigendes Nicken und ein Zwinkern. Ich winke zurück.
+$option: Weiter => /room022
+$end
+else: $background: Pics/BG/pub.png
+$end
+</content>

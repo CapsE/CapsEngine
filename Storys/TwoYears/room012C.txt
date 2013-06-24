@@ -1,0 +1,8 @@
+<content>
+$music: Audio/shower
+$text: Ahhhh… Klares Wasser. Schwach lauwarm, schon fast kalt, klärt es jegliche Zweifel und Sorgen von mir. Ich könnte den ganzen Tag hier drin stehen, aber das würde meine Wasserrechnung sprengen. Und das will ich nicht. Meine Gedanken schweifen weiter…
+<br>
+Ich hoffe der Tag wird heute besser in der Bar. Vielleicht wird jemand auf mich aufmerksam? Ich sehe Vater verdammt ähnlich… Das ich erst in diese Stadt gekommen bin, verdanke ich ihm. Seit er spurlos verschwunden ist, und mich eine Fährte hierher geführt hat, arbeite ich in der Bar, die Stella so schön pflegt. Abgesehen von der Kundschaft, die sind alle eigenartig. Perfekte Bedingungen, sag ich da immer. Paps war auch ein schräger Kauz.
+$option: Weiter => /room013C
+$end
+</content>

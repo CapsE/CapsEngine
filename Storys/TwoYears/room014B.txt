@@ -1,0 +1,9 @@
+<content>
+$music: Audio/AUS
+$sound: Audio/showerend_towelaction_anziehen.mp3
+$text: Ah. Das war wirklich erfrischend. Während des Abtrocknens wird mir klar, dass ich eigentlich schon seit längerem meine Zeit einfach verschwende. Der Grund warum ich erst in diese Stadt gezogen bin… 
+<br>
+Seit seinem Verschwinden hat es mich nicht mehr losgelassen. Es kann sein, dass die Fährte falsch ist, nichtsdestotrotz darf ich nicht aufgeben… Vielleicht erfahre ich heute was Neues.
+$option: Weiter => /room015B
+$end
+</content>

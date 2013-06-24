@@ -1,0 +1,10 @@
+<content>
+$text: Ich nutze in letzter Sekunde die Gelegenheit, um in die Gasse reinzufahren. Mein Widersacher bleibt mir immer noch dicht auf die Fersen, und reagiert schnell. Es handelt sich hier nicht um einen normalen Täter…
+<br>
+Der Typ hat was auf dem Kasten. Die Gasse ist deutlich enger als eine herkömmliche Straße, und ich muss Vorsicht walten lassen. Mein Gegner allerdings scheint keine Probleme zu haben, und holt mich langsam ein. Was mache ich nun…
+<br>
+Raus fahren oder riskieren, die nächste Kurve hier in der Gasse nehmen?
+$option: Raus fahren auf die Straße => /room032BA
+$option: Nächste Kurve nehmen => /room032BB
+$end
+</content>

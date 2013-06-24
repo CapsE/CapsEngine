@@ -1,0 +1,7 @@
+<content>
+$text: Ich fahre hinaus auf die Straße, und holpere über Gerümpel auf dem Boden. Glücklicherweise gewinne ich wieder an Geschwindigkeit, und der Verfolger gerät langsam, aber sich im Hintergrund…
+<br>
+Jetzt heißt es Vollgas geben!
+$option: Weiter => /room033BA
+$end
+</content>
