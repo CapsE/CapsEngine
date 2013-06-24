@@ -1,0 +1,265 @@
+html{
+	background: black;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+#myCanvas{
+	
+	position:absolute;
+	left:0%;
+	top:0%;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+#menuBar{
+	position:fixed;
+	top:0%;
+	left:0%;
+	height:3%;
+	width:100%;
+	background:orange;
+}
+
+.menuItem{
+	float:left;
+	padding-left:15px;
+	padding-right:15px;
+	border-width:2px;
+	border-color:black;
+	border-right-style:solid;
+	height:100%;
+}
+
+#showHide{
+	position:fixed;
+	top:3%;
+	left:75%;
+	padding:5px;
+	background: orange;
+	cursor:pointer;
+}
+
+#center{
+	
+	width: 100%;
+    height:100%;
+    margin: 0px auto;
+}
+
+
+.textField{
+	font-size: large;
+	position: absolute;
+	left:35%;
+	top:10%;
+	background-image: -moz-linear-gradient(rgba(255,255,255,0.75) 0%, white 75%, rgba(255,255,255,0.75) 100%);
+	background-image: linear-gradient(rgba(255,255,255,0.75) 0%, white 75%, rgba(255,255,255,0.75) 100%);
+	background-image: -webkit-linear-gradient(rgba(255,255,255,0.75) 0%, white 75%, rgba(255,255,255,0.75) 100%);
+	background-image: -o-linear-gradient(rgba(255,255,255,0.75) 0%, white 75%, rgba(255,255,255,0.75) 100%);
+
+	background-size: 90%;
+	width: 30%;
+	margin: 0px auto;
+	padding: 5px;
+	border-style:solid;
+	border-color:silver;
+	border-radius:10px;
+}
+
+#button{
+
+}
+
+#buttonText{
+	margin: 5px;
+	padding: 5px;
+	font-size: large;
+	cursor:pointer;
+	z-index: 5;
+	background-image: -webkit-linear-gradient(rgba(255,255,255,0.75) 0%, white 25%, rgba(255,255,255,0.75) 100%);
+	background-image: linear-gradient(rgba(255,255,255,0.75) 0%, white 25%, rgba(255,255,255,0.75) 100%);
+	background-image: -moz-linear-gradient(rgba(255,255,255,0.75) 0%, white 25%, rgba(255,255,255,0.75) 100%);
+	background-image: -o-linear-gradient(rgba(255,255,255,0.75) 0%, white 25%, rgba(255,255,255,0.75) 100%);
+
+
+	background-size: 100%;
+	border-style:solid;
+	border-color:silver;
+	border-radius:10px;
+	color: blue;
+}
+
+#buttonImg{
+	z-index: 3;
+	position: absolute;
+	width:100%;
+	height: 100%;
+}
+
+#buttonDiv{
+	position:absolute; 
+	left:47%;
+	top:40%;
+	padding-top: 30px;
+	margin: 0 -8 -40px 0;
+}
+
+#watermarkHolder{
+	position: absolute;
+	opacity:0.2;
+	left:15%;
+	top:10%;
+	background-image: url("Pics/Watermark2.png");
+	background-size: 30%;
+	background-repeat:no-repeat;
+	background-position:center center;
+	width: 70%;
+	height: 70%;
+}
+
+//Kampf Styles
+#figthView{
+	position:absolute;
+	left:15%;
+	top:15%;
+}
+#enemyName{
+	position:absolute;
+	left:10%;
+	top:10%;
+	font-size:24;
+}
+#battleLog{
+	position:absolute;
+	right:10%;
+	top:25%;
+	width:30%;
+	height:50%;
+	padding:0.5%;
+	background-color:rgba(200,200,200,0.5);
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+}
+#tooltip{
+	position:absolute;
+	left:10%;
+	top:65%;
+	height:10%;
+	width:20%;
+	background-color:rgba(200,200,200,0.5);
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+	padding:0.5%;
+	z-index:3;
+}
+#enemyAP{
+	position:absolute;
+	right:40%;
+	top:10%;
+	font-size:22;
+}
+#enemyHP{
+	position:absolute;
+	right:10%;
+	top:10%;
+	width: 28%;	
+	text-align:center;	
+	font-size:22;
+	z-index:2;
+}
+#myAP{
+	position:absolute;
+	left:40%;
+	top:80%;
+	font-size:22;
+}
+#myHP{
+	position:absolute;
+	left:10%;
+	top:80%;
+	width: 28%;
+	text-align:center;	
+	font-size:22;
+	z-index:2;
+}
+#enemyPic{
+	position:absolute;
+	left:10%;
+	top:15%;
+	height:55%;
+	width:30%;
+	border:3px;
+	border-color:black;
+	border-style:solid;
+}
+#myAbilityDiv{
+	position:absolute;
+	top:85%;
+	left:10%;
+	width:30%;
+	background-color:black;
+	padding-top:0.5%;
+	padding-left:0.5%;
+	padding-bottom:0.5%;
+	padding-right:0.5%;
+}
+#myHPBar{
+	position:absolute;
+	left:10%;
+	top:80%;
+	width: 28%;	
+}
+#enemyHPBar{
+	position:absolute;
+	right:10%;
+	top:10%;
+	width: 28%;	
+}
+#myRegion{
+	background-color:rgba(200,200,200,0.5);
+}
+#enemyRegion{
+	position:absolute;
+	background-color:rgba(200,200,200,0.5);
+	top:9.5%;
+	right:9.5%;
+	width:30%;
+	height:13%;
+	padding:0.5%;
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+}
+#enemyAbilityDiv{
+	position:absolute;
+	top:15%;
+	right:10%;
+	width:30%;
+	background-color:black;
+	padding-top:0.5%;
+	padding-left:0.5%;
+	padding-bottom:0.5%;
+	padding-right:0.5%;
+}
+.myAbility{
+	width:10%;
+}
+.enemyAbility{
+	width:10%;
+	float:right;
+}
+.HPBar{
+	height:3%;
+}

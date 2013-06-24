@@ -1,0 +1,114 @@
+#background{
+	width:100%;
+	height:100%;
+	background:black;
+}
+
+body{
+	padding:0px;
+	margin:0px;
+	width:100%;
+	height:100%;
+	background:black;
+}
+
+html{
+	padding:0px;
+	margin:0px;	
+}
+
+header{
+	height:25%;
+	background-color:white;
+}
+
+#myCanvas{
+	height:90%;
+	width:100%;
+	background:red;
+	display:none;
+}
+
+#logoBig{
+	width:50%;
+}
+
+#navigation{
+	width:100%;
+	height:20%;
+	padding-left:4%;
+	background-image: -moz-linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+	background-image: linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+	background-image: -webkit-linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+	background-image: -o-linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+}
+
+#textblock{
+	position:absolute;
+	top:30%;
+	left:10%;
+	width:80%;
+	background:white;
+	padding:1%;
+	border-radius:10px;
+}
+
+.navElement{
+	color:#FA8800;
+	font-size:25;
+	float:left;
+	height:100%;
+	margin-right:1%;
+	background-image: -moz-linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+	background-image: linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+	background-image: -webkit-linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+	background-image: -o-linear-gradient(#333333 0%, #000000 50%, #111111 100%);
+}
+
+.navElement2{
+	color:#FA8800;
+	font-size:25;
+	float:left;
+	height:100%;
+	margin-right:1%;
+	background-image: -moz-linear-gradient(#CCCCCC 0%, #FFFFFF 50%, #EEEEEE 100%);
+	background-image: linear-gradient(#CCCCCC 0%, #FFFFFF 50%, #EEEEEE 100%);
+	background-image: -webkit-linear-gradient(#CCCCCC 0%, #FFFFFF 50%, #EEEEEE 100%);
+	background-image: -o-linear-gradient(#CCCCCC 0%, #FFFFFF 50%, #EEEEEE 100%);
+}
+
+.navText{
+	font-size:25;
+	color:#FA8800;
+	margin-top:50%;
+}
+
+.szene{
+	margin:9%;
+	padding:1%;
+	width:30%;
+	height:20%;
+	overflow:hidden;
+	float:left;
+	background:white;
+}
+
+.szenePic{
+	width:100%;
+	max-height:100%;
+}
+
+.caption{
+	text-align:center;
+	padding-top:2%;
+	padding-bottom:2%;
+	font-size:20;
+	background-color: rgba(240,240,240,0.5);
+}
+
+#szeneHolder{
+	position:absolute;
+	top:30%;
+	left:10%;
+	width:80%;
+}
