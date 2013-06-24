@@ -1,0 +1,61 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">
+	<head>
+		<script language="javascript" src="jQuery.js"></script>
+		<script language="javascript" src="raphael.js"></script>
+		<script language="javascript" src="header.js"></script>
+	
+		<meta name="author" content="Laura Gohl, Lars Krafft, Mensur Muratovic und Jan Ryklikas"/>
+		<meta name="keywords" lang="de" content="Dark History"/>
+		<meta name="description" content="Dies ist ein Projekt von Laura Gohl, Lars Krafft und Mensur Muratovic! Enjoy the story of "Dark History" "/>
+		<meta http-equiv="language" content="de"/>
+		<meta http-equiv="imagetoolbar" content="no"/>
+		<meta name="robots" content="noindex, nofollow"/>
+		<link rel="shortcut icon" href="Pics/Story.ico" type="image/x-icon"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+		<meta name="viewport" content="width=1024" />
+		<link href="StartStyle.css" rel="stylesheet" type="text/css">
+		<title>CapsEnige</title>
+	</head>
+	<body>
+		<header id="head">
+			<canvas id="myCanvas"></canvas>
+			<div id="navigation">
+				<div class="navElement" onmouseover="this.className='navElement2';" onmouseout="this.className='navElement';">
+					<a href="index.html" class="navText">Home</a>
+				</div>
+				<div class="navElement" onmouseover="this.className='navElement2';" onmouseout="this.className='navElement';">
+					<a href="Doku.html" class="navText">Dokumentation</a>
+				</div>
+				<div class="navElement" onmouseover="this.className='navElement2';" onmouseout="this.className='navElement';">
+					<a href="Doku.html" class="navText">Tutorial</a>
+				</div>
+				<div class="navElement" onmouseover="this.className='navElement2';" onmouseout="this.className='navElement';">
+					<a href="NewStory.php" class="navText">Editor</a>
+				</div>
+			</div>
+		</header>
+		<div id="szeneHolder">
+			<div class="szene">
+				<a  href=/Interpreter.php?r=Storys/Auenland/Auenland.txt"><img src="Pics/TheShire.png" class="szenePic"></img></a>
+				<div class="caption">Das Auenland</div>
+			</div>
+			<div class="szene">
+				<a href="/Interpreter.php?r=Storys/DarkHistory/Room001.txt"><img src="Pics/TemplerVSIlluminati.png" class="szenePic"></img></a>
+				<div class="caption">DarkHistory</div>
+			</div>
+		</div>
+	<body>
+	<script>
+		var paper = new Raphael(document.getElementById('head'),"100%","100%");
+		var background = paper.image('Pics/Rainyday.png',0,0,"100%", "100%");
+		
+		//backend
+		var fotoCol = ["Pics/Index/Foto1.png","Pics/Index/Foto2.png","Pics/Index/Foto3.png","Pics/Index/Foto4.png"];
+		var fotos = [];
+		running = window.setInterval("addFoto()", 2000);
+		for(var i= 0; i<=5; i++){
+			addFoto();
+		}	
+
+	</script>
+</html>
