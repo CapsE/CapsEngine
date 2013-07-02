@@ -1,0 +1,2 @@
+$fight: /Goblin.txt
+$end

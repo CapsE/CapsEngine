@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de">	
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
-		<script language="javascript" src="Obj2D.js"></script>
+		<script language="javascript" src="EnemyReader.js"></script>
 		<script language="javascript" src="TextReader.js"></script>
 		<script language="javascript" src="jQuery.js"></script>
 		<script language="javascript" src="raphael.js"></script>

@@ -173,6 +173,11 @@ function parseBlocks(Blocks){
 			case "always":
 				alwaysRead = value;
 				break;
+			case "fight":
+				document.getElementById("normalView").style.display = "none";
+				document.getElementById("fightView").style.display = "inline";
+				readEnemy(value);
+				break;
 		}
 	}
 	console.log(orderHash);

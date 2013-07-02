@@ -1,0 +1,5 @@
+$root: Storys/TheDungeon
+$text: Dies ist die Story The Dungeon
+$background: Pics/Dungeon.png
+$option: Starte Kampf => kampf
+$end
