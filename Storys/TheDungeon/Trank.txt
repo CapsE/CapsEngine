@@ -1,5 +1,6 @@
 $name: Trank
-$pic: Pics/Icons/potion.jpg
+$pic: Pics/Icons/HealingPotion.png
 $order: heal
+$tooltip: Dieser Heiltrank heilt um 25HP.
 $value: 25
 $end

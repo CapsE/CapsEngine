@@ -1,0 +1,6 @@
+$name: Angriff
+$pic: Pics/Icons/Angriff.png
+$order: dmg
+$tooltip: Fügt dem Feind 10 Schaden zu.
+$value: 10
+$end

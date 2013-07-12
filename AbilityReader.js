@@ -1,6 +1,7 @@
 function readAbility(Path){
 	document.getElementById('buttonDiv').innerHTML = ""
 	var txtFile = new XMLHttpRequest();
+	var newAbi = "";
 	_isif=false;
 	Path = rootFolder + Path;
 	console.debug(Path);
@@ -12,10 +13,12 @@ function readAbility(Path){
 		  blocks.shift();
 		  blocks.pop();
 		  console.debug(blocks);
-		  parseAbility(blocks);
+		  newAbi = parseAbility(blocks);
+		  
 	  }
 	}
 	txtFile.send(null);
+	return newAbi;
 }
 
 function parseAbility(Blocks){
@@ -58,9 +61,8 @@ function parseAbility(Blocks){
 		}
 	}
 	console.log(orderHash);
-	enemyAbilities.push(newAbi);
 	newAbi.setAttribute('class', 'Ability');
-	
-	document.getElementById("enemyAbilityDiv").appendChild(newAbi);
-	
+	newAbi.setAttribute('OnMouseOver', "SetTooltip('" + newAbi.dataset.tooltip + "')");
+	newAbi.setAttribute('OnMouseUp', "ClickAbility('" + newAbi.dataset.order + "', '" + value + "')");
+	return newAbi;	
 }

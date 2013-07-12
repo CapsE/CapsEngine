@@ -69,9 +69,9 @@
 				</div>
 				<div id="enemyAbilityDiv">
 					<!-- Beispiel Abilities
-					<img src="Pics/Icons/heal.jpg" class="enemyAbility"></img> 
-					<img src="Pics/Icons/moon.jpg" class="enemyAbility"></img> 
-					<img src="Pics/Icons/potion.jpg" class="enemyAbility"></img> 
+					<img src="Pics/Icons/heal.jpg" class="Ability"></img> 
+					<img src="Pics/Icons/moon.jpg" class="Ability"></img> 
+					<img src="Pics/Icons/potion.jpg" class="Ability"></img> 
 					-->
 					
 				</div>
@@ -86,9 +86,11 @@
 					<progress value="100" max="100" id="myHPBar" class="HPBar"></progress>
 				</div>
 				<div id="myAbilityDiv">
-					<img src="Pics/Icons/heal.jpg" class="myAbility"></img> 
-					<img src="Pics/Icons/moon.jpg" class="myAbility"></img> 
-					<img src="Pics/Icons/potion.jpg" class="myAbility"></img> 
+					<!-- Beispiel Abilities
+					<img src="Pics/Icons/heal.jpg" class="Ability"></img> 
+					<img src="Pics/Icons/moon.jpg" class="Ability"></img> 
+					<img src="Pics/Icons/potion.jpg" class="Ability"></img> 
+					--> 
 				</div>
 			</div>
 			<div id="battleLog">Der Kampf beginnt</div>
@@ -157,11 +159,71 @@
 				opacity = 1;
 			}
 		}
-
 	</script>
 	<script>
-		function AbilityHover(obj){
+		var hero = {};
+		var enemy = {};
+		hero["hp"] = 50;
+		hero["maxHp"] = 100;
+		enemy["hp"] = 100;
+		enemy["maxHp"] = 100;
+		function SetTooltip(string){
+			document.getElementById("tooltip").innerHTML = string;
+		}
+		function ClickAbility(order, value){
+			switch(order){
+				case "heal":
+					AddHp(value, true);
+					break;
+				case "dmg":
+					DoDmg(value, true);
+					break;
+			}
+		}
+		function SetMaxHp(value){
 			
+		}
+		function AddHp(value, isHero){
+			if(isHero){
+				if(hero["hp"] <= hero["maxHp"] - value){
+					hero["hp"] = parseInt(hero["hp"]) + parseInt(value);
+				}else{
+					hero["hp"] = hero["maxHp"];
+				}
+				document.getElementById("myHP").innerHTML = hero["hp"] + "/" + hero["maxHp"];
+				document.getElementById("myHPBar").value = hero["hp"];
+				document.getElementById("myHP").max = hero["maxHp"];
+			}else{
+				if(hero["hp"] <= enemy["maxHp"] - value){
+					enemy["hp"] = parseInt(enemy["hp"]) + parseInt(value);
+				}else{
+					enemy["hp"] = enemy["maxHp"];
+				}
+				document.getElementById("enemyHP").innerHTML = enemy["hp"] + "/" + enemy["maxHp"];
+				document.getElementById("enemyHPBar").value = enemy["hp"];
+				document.getElementById("enemyHP").max = enemy["maxHp"];
+			}
+		}
+		function DoDmg(value, isHero){
+			if(isHero == false){
+				if(hero["hp"] <= value){
+					hero["hp"] = 0;
+				}else{
+					hero["hp"] = parseInt(hero["hp"]) - parseInt(value);
+				}
+				document.getElementById("enemyHP").innerHTML = hero["hp"] + "/" + hero["maxHp"];
+				document.getElementById("enemyHPBar").value = hero["hp"];
+				document.getElementById("enemyHP").max = hero["maxHp"];
+			}else{
+				if(enemy["hp"] <=  value){
+					enemy["hp"] = 0;
+				}else{
+					enemy["hp"] = parseInt(enemy["hp"]) - parseInt(value);
+				}
+				document.getElementById("enemyHP").innerHTML = enemy["hp"] + "/" + enemy["maxHp"];
+				document.getElementById("enemyHPBar").value = enemy["hp"];
+				document.getElementById("enemyHP").max = enemy["maxHp"];
+			}
 		}
 	</script>
 </html>

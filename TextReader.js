@@ -178,6 +178,12 @@ function parseBlocks(Blocks){
 				document.getElementById("fightView").style.display = "inline";
 				readEnemy(value);
 				break;
+			case "abi":
+				console.debug('Adding Ability: ' + value);
+				var newAbi = readAbility(value);
+				myAbilities.push(newAbi);
+				document.getElementById("myAbilityDiv").appendChild(newAbi);
+				break;
 		}
 	}
 	console.log(orderHash);

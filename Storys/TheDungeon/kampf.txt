@@ -1,2 +1,4 @@
+$abi: /Trank.txt
+$abi: /Angriff.txt
 $fight: /Goblin.txt
 $end

@@ -38,7 +38,10 @@ function parseEnemy(Blocks){
 				break;
 			case "abi":
 				console.debug('Adding Ability: ' + value);
-				readAbility(value);
+				var newAbi = readAbility(value);
+				newAbi.setAttribute('OnMouseUp', "");
+				enemyAbilities.push(newAbi);
+				document.getElementById("enemyAbilityDiv").appendChild(newAbi);
 				break;
 		}
 	}
