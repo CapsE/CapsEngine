@@ -1,0 +1,182 @@
+//Kampf Styles
+#figthView{
+	position:absolute;
+	left:15%;
+	top:15%;
+	background:grey;
+}
+#enemyRegion{
+	position:absolute;
+	background-color:rgba(200,200,200,0.5);
+	top:10%;
+	left: 52%;
+	width:30%;
+	height:50%;
+	padding:0.5%;
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+}
+#enemyName{
+	position:absolute;
+	left:2%;
+	top:2%;
+	font-size:24;
+}
+#enemyValues{
+	position:absolute;
+	left:2%;
+	bottom:20%;
+	height:10%;
+	width:90%;
+}
+#enemyAP{
+	position:absolute;
+	left:55%;
+	top:65%;
+	font-size:22;
+}
+#enemyAbilityDiv{
+	position:absolute;
+	top:15%;
+	right:10%;
+	width:30%;
+	background-color:black;
+	padding-top:0.5%;
+	padding-left:0.5%;
+	padding-bottom:0.5%;
+	padding-right:0.5%;
+}
+#enemyHP{
+	position: absolute;
+	top:0%;
+	left:0%;
+	width: 45%;	
+	height: 75%;
+	text-align:center;	
+	font-size:22;
+	z-index:2;
+}
+#enemyHPBar{
+	position: absolute;
+	top:0%;
+	left:0%;
+	width: 45%;	
+	height: 75%;
+}
+#enemyPic{
+	position:absolute;
+	left:5%;
+	top:12%;
+	height:55%;
+	border:3px;
+	border-color:black;
+	border-style:solid;
+}
+
+#myRegion{
+	position:absolute;
+	background-color:rgba(200,200,200,0.5);
+	top:10%;
+	left: 2%;
+	width:30%;
+	height:50%;
+	padding:0.5%;
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+}
+#myName{
+	position:absolute;
+	left:2%;
+	top:2%;
+	font-size:24;
+}
+#myPic{
+	position:absolute;
+	left:5%;
+	top:12%;
+	height:55%;
+	border:3px;
+	border-color:black;
+	border-style:solid;
+}
+#myValues{
+	position:absolute;
+	left:2%;
+	bottom:20%;
+	height:10%;
+	width:90%;
+}
+#myAbilityDiv{
+	position:absolute;
+	top:85%;
+	left:2%;
+	width:50%;
+	height:10%;
+	background-color:black;
+	padding-top:0.5%;
+	padding-left:0.5%;
+	padding-right:0.5%;
+	padding-bottom:0.5%;
+}
+#myAP{
+	position:absolute;
+	left:55%;
+	top:65%;
+	font-size:22;
+}
+#myHP{
+	position: absolute;
+	top:0%;
+	left:0%;
+	width: 45%;	
+	height: 75%;
+	text-align:center;	
+	font-size:22;
+	z-index:2;
+}
+#myHPBar{
+	position: absolute;
+	top:0%;
+	left:0%;
+	width: 45%;	
+	height: 75%;
+}
+
+#battleLog{
+	position:absolute;
+	left:52%;
+	top:65%;
+	width:30%;
+	height:10%;
+	padding:0.5%;
+	background-color:rgba(200,200,200,0.5);
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+}
+#tooltip{
+	position:absolute;
+	left:2%;
+	top:65%;
+	height:10%;
+	width:30%;
+	background-color:rgba(200,200,200,0.5);
+	border:3px;
+	border-style:solid;
+	border-color:rgba(50,50,50,0.5);
+	border-radius:5px;
+	padding:0.5%;
+	z-index:3;
+}
+
+.Ability{
+	height:100%;
+}
+.HPBar{
+	height:3%;
+}

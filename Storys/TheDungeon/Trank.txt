@@ -1,0 +1,5 @@
+$name: Trank
+$pic: Pics/Icons/potion.jpg
+$order: heal
+$value: 25
+$end

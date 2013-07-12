@@ -6,6 +6,8 @@
 		<script language="javascript" src="TextReader.js"></script>
 		<script language="javascript" src="jQuery.js"></script>
 		<script language="javascript" src="raphael.js"></script>
+		<script language="javascript" src="AbilityReader.js"></script>
+		<script language="javascript" src="Ability.js"></script>
 		<script language="javascript" src="UTF-Encode.js"></script>
 		<meta name="author" content="Laura Gohl, Lars Krafft, Mensur Muratovic und Jan Ryklikas"/>
 		<meta name="keywords" lang="de" content="Dark History"/>
@@ -17,6 +19,7 @@
 		
 		<meta name="viewport" content="width=1024" />
 		<link href="Style.css" rel="stylesheet" type="text/css">
+		<link href="FightStyle.css" rel="stylesheet" type="text/css">
 		<title>Dark History</title>
 	</head>
 	<?php
@@ -55,27 +58,42 @@
 		</div>
 <!--################################################### fight View-->
 		<div id="fightView" style="display: none">
-			<div id="enemyName">Gegner</div>
-				<div id="enemyAP">1</div>
-				<div id="enemyHP">100/100</div>
-				<progress value="100" max="100" id="enemyHPBar" class="HPBar"></progress>
+			<!-- ###################################### Enemy Region-->
+			<div id="enemyRegion">
+				<div id="enemyName">Gegner</div>
+				<img src="Pics/Slime.png" id="enemyPic"></img>	
+				<div id="enemyValues">
+					<div id="enemyAP">1</div>
+					<div id="enemyHP">100/100</div>
+					<progress value="100" max="100" id="enemyHPBar" class="HPBar"></progress>
+				</div>
 				<div id="enemyAbilityDiv">
+					<!-- Beispiel Abilities
 					<img src="Pics/Icons/heal.jpg" class="enemyAbility"></img> 
 					<img src="Pics/Icons/moon.jpg" class="enemyAbility"></img> 
 					<img src="Pics/Icons/potion.jpg" class="enemyAbility"></img> 
+					-->
+					
 				</div>
-			<div id="myRegion"></div>
-			<div id="myAP">1</div>
-				<div id="myHP">100/100</div>
-				<progress value="100" max="100" id="myHPBar" class="HPBar"></progress>
+			</div>
+			<!-- ###################################### My Region-->
+			<div id="myRegion">
+				<div id="myName">Held</div>
+				<img src="Pics/HeroBasis.png" id="myPic"></img>
+				<div id="myValues">
+					<div id="myAP">1</div>
+					<div id="myHP">100/100</div>
+					<progress value="100" max="100" id="myHPBar" class="HPBar"></progress>
+				</div>
 				<div id="myAbilityDiv">
 					<img src="Pics/Icons/heal.jpg" class="myAbility"></img> 
 					<img src="Pics/Icons/moon.jpg" class="myAbility"></img> 
 					<img src="Pics/Icons/potion.jpg" class="myAbility"></img> 
 				</div>
+			</div>
 			<div id="battleLog">Der Kampf beginnt</div>
 			<div id="tooltip">Tooltip missing</div>
-			<img src="Pics/Paris.jpg" id="enemyPic"></img>			
+					
 		</div>
 <!--###################################################-->
 	</div>
@@ -90,6 +108,9 @@
 		var audioElement = document.createElement('audio');
 		attr['hp'] = 1;
 		attr['init'] = 1;
+		
+		var myAbilities = [];
+		var enemyAbilities = [];
 
 		//var textfeld = new Picture('Pics/weiﬂ.png',[canvas.width-270,canvas.height-140],[canvas.width-100, canvas.height-50],ctx);
 		var startRoom = '<?php echo $startRoom;?>';
@@ -137,5 +158,10 @@
 			}
 		}
 
+	</script>
+	<script>
+		function AbilityHover(obj){
+			
+		}
 	</script>
 </html>

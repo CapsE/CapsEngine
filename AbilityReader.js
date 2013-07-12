@@ -1,4 +1,4 @@
-function readEnemy(Path){
+function readAbility(Path){
 	document.getElementById('buttonDiv').innerHTML = ""
 	var txtFile = new XMLHttpRequest();
 	_isif=false;
@@ -12,15 +12,19 @@ function readEnemy(Path){
 		  blocks.shift();
 		  blocks.pop();
 		  console.debug(blocks);
-		  parseEnemy(blocks);
+		  parseAbility(blocks);
 	  }
 	}
 	txtFile.send(null);
 }
 
-function parseEnemy(Blocks){
+function parseAbility(Blocks){
 	var orderHash = {};
+	var newAbi = document.createElement("img");	
 	for(var i = 0; i < Blocks.length; i++){
+		//Erstelle neues Object
+		
+		
 		//Entferne Whitespaces
 		Blocks[i] = Blocks[i].replace(/^\s+|\s+$/g,'');
 		sp = Blocks[i].split(": ");
@@ -30,17 +34,33 @@ function parseEnemy(Blocks){
 		for(var h = 2; h < sp.length; h++){
 			value = value + " " + sp[h];
 		}
-		console.debug("Da kommt der Switch");
 		switch(order){
 			case "name":
-				console.debug('Setze Name auf: ' + value);
-				document.getElementById('enemyName').innerHTML = value;
+				console.debug('Ability Name = ' + value);
+				newAbi.dataset.name = value;
 				break;
-			case "abi":
-				console.debug('Adding Ability: ' + value);
-				readAbility(value);
+			case "tooltip":
+				console.debug('Tooltip = ' + value);
+				newAbi.dataset.tooltip = value;
+				break;
+			case "order":
+				console.debug('Order = ' + value);
+				newAbi.dataset.order = value;
+				break;
+			case "value":
+				console.debug('Value = ' + value);
+				newAbi.dataset.value = value;
+				break;
+			case "pic":
+				console.debug('Pic = ' + value);
+				newAbi.setAttribute('src', value);
 				break;
 		}
 	}
 	console.log(orderHash);
+	enemyAbilities.push(newAbi);
+	newAbi.setAttribute('class', 'Ability');
+	
+	document.getElementById("enemyAbilityDiv").appendChild(newAbi);
+	
 }
