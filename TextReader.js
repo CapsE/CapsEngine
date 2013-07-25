@@ -176,6 +176,10 @@ function parseBlocks(Blocks){
 			case "fight":
 				document.getElementById("normalView").style.display = "none";
 				document.getElementById("fightView").style.display = "inline";
+				
+				document.getElementById('myHPBar').max = hero["maxHp"];
+				document.getElementById('myHPBar').value = hero["hp"];
+				document.getElementById("myHP").innerHTML = hero["hp"] + "/" + hero["maxHp"];
 				readEnemy(value);
 				break;
 			case "abi":
@@ -183,6 +187,28 @@ function parseBlocks(Blocks){
 				var newAbi = readAbility(value);
 				myAbilities.push(newAbi);
 				document.getElementById("myAbilityDiv").appendChild(newAbi);
+				break;
+			case "bar":
+				console.debug('Adding Bar: ' + value);
+				value = value.split(",");
+				if(bars[value[0]] == null){
+					var curBar = document.createElement("progress");
+					curBar.setAttribute("class", "progressBar");
+					var label = document.createElement("div");
+					label.innerHTML = value[0];
+					label.setAttribute("class", "barLabel");
+					document.getElementById("barHolder").appendChild(label);
+					document.getElementById("barHolder").appendChild(curBar);
+					
+					
+				}else{
+					var curBar = bars[value[0]];
+				}
+				curBar.value = value[1];
+				curBar.max = value[2];
+				if(value[3] != null){
+					curBar.style.color = value[3];
+				}	
 				break;
 		}
 	}

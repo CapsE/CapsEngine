@@ -43,6 +43,13 @@ function parseEnemy(Blocks){
 				enemyAbilities.push(newAbi);
 				document.getElementById("enemyAbilityDiv").appendChild(newAbi);
 				break;
+			case "hp":
+				console.debug("Setze Enemy HP: " + value);
+				document.getElementById('enemyHPBar').max = value;
+				enemy["maxHp"] = value;
+				enemy["hp"] = value;
+				document.getElementById("enemyHP").innerHTML = enemy["hp"] + "/" + enemy["maxHp"];
+				break;
 		}
 	}
 	console.log(orderHash);

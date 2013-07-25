@@ -1,4 +1,4 @@
 $name: Goblin
 $hp: 20
-$abi: /Trank.txt
+$abi: /Angriff.txt
 $end

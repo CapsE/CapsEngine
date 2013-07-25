@@ -28,7 +28,7 @@
 	<div id="center">
 		
 <!--################################################### normal View-->
-		<div id="barHolder">
+		<div id="toolbarHolder">
 			<div id="controlBar" onclick="toggleBar()">
 				<div class="controlButton">-</div>
 				<div class="controlButton">Mute</div>
@@ -36,6 +36,7 @@
 			</div>	
 			<div id="toggleButton" class="controlButton" onclick="toggleBar()" style="float:right; cursor:pointer;">hide</div>
 		</div>
+		<div id="barHolder"></div>
 		<div id="normalView" style="">
 			<canvas id="myCanvas"></canvas>
 			<img id="bg2" class="background" src="Pics/button.png" onclick="readNextRoom()"></img>
@@ -104,15 +105,13 @@
 		var nextRoom = "";
 		
 		var attr = {};
+		var bars = {};
 		var rootFolder = "Rooms";
 		var fading;
 		var opacity = 1;
 		var audioElement = document.createElement('audio');
 		attr['hp'] = 1;
 		attr['init'] = 1;
-		
-		var myAbilities = [];
-		var enemyAbilities = [];
 
 		//var textfeld = new Picture('Pics/weiﬂ.png',[canvas.width-270,canvas.height-140],[canvas.width-100, canvas.height-50],ctx);
 		var startRoom = '<?php echo $startRoom;?>';
@@ -163,23 +162,40 @@
 	<script>
 		var hero = {};
 		var enemy = {};
+		
+		var myAbilities = [];
+		var enemyAbilities = [];
+		
 		hero["hp"] = 50;
 		hero["maxHp"] = 100;
 		enemy["hp"] = 100;
 		enemy["maxHp"] = 100;
+		
 		function SetTooltip(string){
 			document.getElementById("tooltip").innerHTML = string;
 		}
-		function ClickAbility(order, value){
+		function ClickAbility(order, value, hero){
+			hero = typeof hero !== 'undefined' ? hero : true;
 			switch(order){
 				case "heal":
-					AddHp(value, true);
+					AddHp(value, hero);
 					break;
 				case "dmg":
-					DoDmg(value, true);
+					DoDmg(value, hero);
 					break;
 			}
+			if(hero){
+				KITurn();
+			}
 		}
+		
+		function KITurn(){
+			var abiNum = rnd(0, enemyAbilities.length);
+			var order = enemyAbilities[abiNum].dataset.order;
+			var value = enemyAbilities[abiNum].dataset.value;
+			ClickAbility(order, value, false);
+		}
+		
 		function SetMaxHp(value){
 			
 		}
@@ -192,16 +208,16 @@
 				}
 				document.getElementById("myHP").innerHTML = hero["hp"] + "/" + hero["maxHp"];
 				document.getElementById("myHPBar").value = hero["hp"];
-				document.getElementById("myHP").max = hero["maxHp"];
+				document.getElementById("myHPBar").max = hero["maxHp"];
 			}else{
-				if(hero["hp"] <= enemy["maxHp"] - value){
+				if(enemy["hp"] <= enemy["maxHp"] - value){
 					enemy["hp"] = parseInt(enemy["hp"]) + parseInt(value);
 				}else{
 					enemy["hp"] = enemy["maxHp"];
 				}
 				document.getElementById("enemyHP").innerHTML = enemy["hp"] + "/" + enemy["maxHp"];
 				document.getElementById("enemyHPBar").value = enemy["hp"];
-				document.getElementById("enemyHP").max = enemy["maxHp"];
+				document.getElementById("enemyHPBar").max = enemy["maxHp"];
 			}
 		}
 		function DoDmg(value, isHero){
@@ -211,9 +227,9 @@
 				}else{
 					hero["hp"] = parseInt(hero["hp"]) - parseInt(value);
 				}
-				document.getElementById("enemyHP").innerHTML = hero["hp"] + "/" + hero["maxHp"];
-				document.getElementById("enemyHPBar").value = hero["hp"];
-				document.getElementById("enemyHP").max = hero["maxHp"];
+				document.getElementById("myHP").innerHTML = hero["hp"] + "/" + hero["maxHp"];
+				document.getElementById("myHPBar").value = hero["hp"];
+				document.getElementById("myHPBar").max = hero["maxHp"];
 			}else{
 				if(enemy["hp"] <=  value){
 					enemy["hp"] = 0;
@@ -222,7 +238,7 @@
 				}
 				document.getElementById("enemyHP").innerHTML = enemy["hp"] + "/" + enemy["maxHp"];
 				document.getElementById("enemyHPBar").value = enemy["hp"];
-				document.getElementById("enemyHP").max = enemy["maxHp"];
+				document.getElementById("enemyHPBar").max = enemy["maxHp"];
 			}
 		}
 	</script>
